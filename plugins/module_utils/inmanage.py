@@ -49,6 +49,6 @@ def get_connection(module):
     # else:
     dict_param = module.params
     if not inmanage_temp:
-        module.fail_json(msg='ieisystem_sdk must be installed to use this module')
+        module.fail_json(msg='inmanage_sdk must be installed to use this module')
     result = inmanage.main(dict_param)
     return result
