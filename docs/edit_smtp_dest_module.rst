@@ -56,7 +56,7 @@ Requirements
 The below requirements are needed on the host that executes this module.
 
 - Python 3.7+
-- ieisystemInManage
+- inManage
 
 
 .. Options

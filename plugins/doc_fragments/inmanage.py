@@ -55,5 +55,5 @@ options:
     type: str
 requirements:
   - Python 3.7+
-  - ieisystemInManage
+  - inManage
 '''
