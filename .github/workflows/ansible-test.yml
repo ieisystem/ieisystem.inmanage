@@ -19,29 +19,47 @@ jobs:
         - stable-2.13
         - stable-2.14
         - stable-2.15
+        - stable-2.16
         - devel
         python-version:
         - '3.8'
         - '3.9'
         - '3.10'
         - '3.11'
+        - '3.12'
         exclude:
           - ansible: stable-2.10
             python-version: '3.10'
           - ansible: stable-2.10
             python-version: '3.11'
+          - ansible: stable-2.10
+            python-version: '3.12'
           - ansible: stable-2.11
             python-version: '3.10'
           - ansible: stable-2.11
             python-version: '3.11'
+          - ansible: stable-2.11
+            python-version: '3.12'
           - ansible: stable-2.12
             python-version: '3.11'
+          - ansible: stable-2.12
+            python-version: '3.12'
           - ansible: stable-2.13
             python-version: '3.11'
+          - ansible: stable-2.13
+            python-version: '3.12'
           - ansible: stable-2.14
             python-version: '3.8'
+          - ansible: stable-2.14
+            python-version: '3.12'
           - ansible: stable-2.15
             python-version: '3.8'
+          - ansible: stable-2.15
+            python-version: '3.12'
+          - ansible: stable-2.16
+            python-version: '3.8'
+          - ansible: stable-2.16
+            python-version: '3.9'
           - ansible: devel
             python-version: '3.8'
           - ansible: devel

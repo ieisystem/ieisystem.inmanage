@@ -1,6 +1,8 @@
 # ieisystem InManage Collection
 
-This repo contains the `ieisystem.inmanage` Ansible Collection. ieisystem Server supports ansible management device,Basic management of the server based on restful interface.
+This repo contains the `ieisystem.inmanage` Ansible Collection. Collections are used to manage common IEIT servers, and Basic management of the server based on restful interface. Including server BMC configuration, firmware upgrade, BIOS configuration and other functions.
+
+.
 
 ## Tested with Ansible
 
