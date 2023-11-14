@@ -39,7 +39,7 @@ jobs:
           - ansible: stable-2.11
             python-version: '3.11'
           - ansible: stable-2.11
-            python-version: '3.12
+            python-version: '3.12'
           - ansible: stable-2.12
             python-version: '3.11'
           - ansible: stable-2.12
