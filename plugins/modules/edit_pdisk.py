@@ -32,17 +32,17 @@ options:
         type: int
     device_id:
         description:
-            - physical drive id.
+            - Physical drive id.
             - Required when I(Info=None).
         type: int
     option:
         description:
-            - Set operation options fo physical disk,
-            - UG is Unconfigured Good,UB is Unconfigured Bad,
-            - OFF is offline,FAIL is Failed,RBD is Rebuild,
-            - ON is Online,JB is JBOD,ES is Drive Erase stop,
-            - EM is Drive Erase Simple,EN is Drive Erase Normal,
-            - ET is Drive Erase Through,LOC is Locate,STL is Stop Locate,
+            - Set operation options fo physical disk.
+            - UG is Unconfigured Good,UB is Unconfigured Bad.
+            - OFF is offline,FAIL is Failed,RBD is Rebuild.
+            - ON is Online,JB is JBOD,ES is Drive Erase stop.
+            - EM is Drive Erase Simple,EN is Drive Erase Normal.
+            - ET is Drive Erase Through,LOC is Locate,STL is Stop Locate.
             - HS is Hot spare.
             - Required when I(Info=None).
             - Only the M5 model supports C(HS) Settings.
@@ -78,7 +78,7 @@ options:
         elements: int
     duration:
         description:
-            - duration range is 1-255,physical drive under PMC raid controller.
+            - Duration range is 1-255,physical drive under PMC raid controller.
             - Required when I(option=LOC).
             - Only the M6 model supports this parameter.
         type: int

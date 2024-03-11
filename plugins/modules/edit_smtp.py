@@ -55,8 +55,8 @@ options:
         type: str
     primary_username:
         description:
-            - Primary SMTP server Username,lenth be 4 to 64 bits,
-            - must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
+            - Primary SMTP server Username,lenth be 4 to 64 bits.
+            - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
         type: str
     primary_password:
         description:
@@ -82,13 +82,13 @@ options:
         type: int
     secondary_auth:
         description:
-            - S.econdary SMTP server authentication
+            - Secondary SMTP server authentication.
         choices: ['enable', 'disable']
         type: str
     secondary_username:
         description:
-            - Secondary SMTP server Username,lenth be 4 to 64 bits,
-            - must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
+            - Secondary SMTP server Username,lenth be 4 to 64 bits.
+            - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
         type: str
     secondary_password:
         description:

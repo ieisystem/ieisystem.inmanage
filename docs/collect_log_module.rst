@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>File download path or path with filename , e.g. filepath/filename.tar.</div>
+                                            <div>File download path or path with filename , for example filepath/filename.tar.</div>
                                                         </td>
             </tr>
                                 <tr>

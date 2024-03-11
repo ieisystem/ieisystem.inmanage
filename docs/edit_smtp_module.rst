@@ -248,8 +248,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Primary SMTP server Username,lenth be 4 to 64 bits,</div>
-                                            <div>must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
+                                            <div>Primary SMTP server Username,lenth be 4 to 64 bits.</div>
+                                            <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -332,7 +332,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>S.econdary SMTP server authentication</div>
+                                            <div>Secondary SMTP server authentication.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -427,8 +427,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secondary SMTP server Username,lenth be 4 to 64 bits,</div>
-                                            <div>must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
+                                            <div>Secondary SMTP server Username,lenth be 4 to 64 bits.</div>
+                                            <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                                         </td>
             </tr>
                                 <tr>

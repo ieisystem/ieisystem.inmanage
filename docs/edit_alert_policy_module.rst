@@ -103,9 +103,9 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Alert destination,when type is snmp,fill in IP;</div>
-                                            <div>when type is email,fill in user name;</div>
-                                            <div>when type is snmpdomain,fill in domain.</div>
+                                            <div>Alert destination,when type is snmp,fill in IP.</div>
+                                            <div>When type is email,fill in user name.</div>
+                                            <div>When type is snmpdomain,fill in domain.</div>
                                                         </td>
             </tr>
                                 <tr>

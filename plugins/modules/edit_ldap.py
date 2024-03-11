@@ -41,8 +41,8 @@ options:
     dn:
         description:
             - Bind DN.
-            - Bind DN is a string of 4 to 64 alpha-numeric characters;
-            - It must start with an alphabetical character;
+            - Bind DN is a string of 4 to 64 alpha-numeric characters.
+            - It must start with an alphabetical character.
             - Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.
         type: str
     code:
@@ -52,9 +52,9 @@ options:
         type: str
     base:
         description:
-            - Search Base,
-            - Search base is a string of 4 to 64 alpha-numeric characters;
-            - It must start with an alphabetical character;
+            - Search Base.
+            - Search base is a string of 4 to 64 alpha-numeric characters.
+            - It must start with an alphabetical character.
             - Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.
         type: str
     attr:

@@ -22,7 +22,7 @@ notes:
 options:
     list:
         description:
-            - show attribute name and configurable value.
+            - Show attribute name and configurable value.
         default: False
         type: bool
     attribute:
@@ -37,7 +37,7 @@ options:
         type: str
     file_url:
         description:
-            - BIOS option file.attribute must be used with value,
+            - BIOS option file.attribute must be used with value.
             - Mutually exclusive with fileurl format,"/directory/filename".
         type: str
 extends_documentation_fragment:

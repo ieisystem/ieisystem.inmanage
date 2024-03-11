@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set auth password of V3 trap or v3get/v3set,</div>
+                                            <div>Set auth password of V3 trap or v3get/v3set.</div>
                                             <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
                                             <div>Required when <em>auth_protocol</em> is either <code>SHA</code> or <code>MD5</code>.</div>
                                                         </td>
@@ -166,8 +166,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set privacy password of V3 trap or v3get/v3set,</div>
-                                            <div>password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Set privacy password of V3 trap or v3get/v3set.</div>
+                                            <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
                                             <div>Required when <em>priv_protocol</em> is either <code>DES</code> or <code>AES</code>.</div>
                                                         </td>
             </tr>
@@ -299,8 +299,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NMP read/write status of customize,</div>
-                                            <div>the input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;,separated by commas,such as v1get,v1set,v2cget.</div>
+                                            <div>NMP read/write status of customize.</div>
+                                            <div>The input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;,separated by commas,such as v1get,v1set,v2cget.</div>
                                             <div>Only the M5 models support this feature.</div>
                                                         </td>
             </tr>

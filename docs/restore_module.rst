@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>select backup file or bak folder.</div>
+                                            <div>Select backup file or bak folder.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -126,7 +126,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>select export item.</div>
+                                            <div>Select export item.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>

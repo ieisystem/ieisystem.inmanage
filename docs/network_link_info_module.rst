@@ -202,7 +202,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: link test
+    - name: Link test
       hosts: inmanage
       connection: local
       gather_facts: no

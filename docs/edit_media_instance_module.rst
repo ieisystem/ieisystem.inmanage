@@ -105,7 +105,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Select the number of Remote KVM CD/DVD devices that support for virtual Media redirection,</div>
+                                            <div>Select the number of Remote KVM CD/DVD devices that support for virtual Media redirection.</div>
                                             <div>The max support number of html5 KVM is 2 and java KVM is 4.</div>
                                                         </td>
             </tr>

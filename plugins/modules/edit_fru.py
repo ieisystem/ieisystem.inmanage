@@ -22,9 +22,9 @@ notes:
 options:
     attribute:
         description:
-            - Attribute,CP is Chassis Part Number,CS is Chassis Serial,PM is Product Manufacturer,
-            - PPN is Product Part Number,PS is Product Serial,PN is Product Name,PV is Product Version,
-            - PAT is Product Asset Tag,BM is Board Mfg,BPN is Board Product Name,BS is Board Serial,
+            - Attribute,CP is Chassis Part Number,CS is Chassis Serial,PM is Product Manufacturer.
+            - PPN is Product Part Number,PS is Product Serial,PN is Product Name,PV is Product Version.
+            - PAT is Product Asset Tag,BM is Board Mfg,BPN is Board Product Name,BS is Board Serial.
             - BP is Board Part Number.
         choices: ['CP', 'CS', 'PM', 'PPN', 'PS', 'PN', 'PV','PAT', 'BM', 'BPN', 'BS', 'BP']
         required: true

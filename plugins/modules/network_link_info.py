@@ -25,7 +25,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: link test
+- name: Link test
   hosts: inmanage
   connection: local
   gather_facts: no

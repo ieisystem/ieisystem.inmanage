@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>fan speed (duty ratio), range in 1 - 100.</div>
+                                            <div>Fan speed (duty ratio), range in 1 - 100.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -113,7 +113,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>fan id 255 is for all fans,0~n.</div>
+                                            <div>Fan id 255 is for all fans,0~n.</div>
                                                         </td>
             </tr>
                                 <tr>

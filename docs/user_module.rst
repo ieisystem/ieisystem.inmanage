@@ -232,9 +232,9 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>user group.</div>
-                                            <div>default user group &#x27;Administrator&#x27;, &#x27;Operator&#x27;, &#x27;User&#x27;.</div>
-                                            <div>use command <code>user_group_info</code> can get all group information.</div>
+                                            <div>User group.</div>
+                                            <div>Default user group &#x27;Administrator&#x27;, &#x27;Operator&#x27;, &#x27;User&#x27;.</div>
+                                            <div>Use command <code>user_group_info</code> can get all group information.</div>
                                                         </td>
             </tr>
                                 <tr>

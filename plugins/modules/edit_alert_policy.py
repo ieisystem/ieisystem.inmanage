@@ -41,9 +41,9 @@ options:
         type: str
     destination:
         description:
-            - Alert destination,when type is snmp,fill in IP;
-            - when type is email,fill in user name;
-            - when type is snmpdomain,fill in domain.
+            - Alert destination,when type is snmp,fill in IP.
+            - When type is email,fill in user name.
+            - When type is snmpdomain,fill in domain.
         type: str
     channel:
         description:
