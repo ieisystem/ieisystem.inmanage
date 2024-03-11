@@ -57,7 +57,7 @@ options:
             - For web, SSH and telnet service, user can configure the session timeout value.
             - Web timeout value ranges from 300 to 1800 seconds.
             - SSH and Telnet timeout value ranges from 60 to 1800 seconds.
-            - timeout value should be in multiples of 60 seconds.
+            - Timeout value should be in multiples of 60 seconds.
         type: int
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

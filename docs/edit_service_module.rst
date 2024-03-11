@@ -285,7 +285,7 @@ Parameters
                                             <div>For web, SSH and telnet service, user can configure the session timeout value.</div>
                                             <div>Web timeout value ranges from 300 to 1800 seconds.</div>
                                             <div>SSH and Telnet timeout value ranges from 60 to 1800 seconds.</div>
-                                            <div>timeout value should be in multiples of 60 seconds.</div>
+                                            <div>Timeout value should be in multiples of 60 seconds.</div>
                                                         </td>
             </tr>
                                 <tr>

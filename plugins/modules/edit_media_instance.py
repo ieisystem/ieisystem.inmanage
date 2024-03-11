@@ -42,7 +42,7 @@ options:
         type: int
     kvm_num_cd:
         description:
-            - Select the number of Remote KVM CD/DVD devices that support for virtual Media redirection,
+            - Select the number of Remote KVM CD/DVD devices that support for virtual Media redirection.
             - The max support number of html5 KVM is 2 and java KVM is 4.
         choices: [0, 1, 2, 3, 4]
         type: int

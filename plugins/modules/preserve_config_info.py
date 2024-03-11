@@ -25,7 +25,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: preserve test
+- name: Preserve test
   hosts: inmanage
   connection: local
   gather_facts: no

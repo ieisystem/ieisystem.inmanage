@@ -249,7 +249,7 @@ Common return values are documented :ref:`here <common_return_values>`, the foll
                                     </td>
                 <td>always</td>
                 <td>
-                                            <div>check to see if a change was made on the device</div>
+                                            <div>Check to see if a change was made on the device.</div>
                                         <br/>
                                     </td>
             </tr>
@@ -264,7 +264,7 @@ Common return values are documented :ref:`here <common_return_values>`, the foll
                                     </td>
                 <td>always</td>
                 <td>
-                                            <div>messages returned after module execution</div>
+                                            <div>Messages returned after module execution.</div>
                                         <br/>
                                     </td>
             </tr>
@@ -279,7 +279,7 @@ Common return values are documented :ref:`here <common_return_values>`, the foll
                                     </td>
                 <td>always</td>
                 <td>
-                                            <div>status after module execution</div>
+                                            <div>Status after module execution.</div>
                                         <br/>
                                     </td>
             </tr>

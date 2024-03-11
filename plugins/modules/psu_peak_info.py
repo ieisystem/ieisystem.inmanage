@@ -43,17 +43,16 @@ EXAMPLES = '''
 '''
 
 RETURN = '''
-
 message:
-    description: messages returned after module execution
+    description: Messages returned after module execution.
     returned: always
     type: str
 state:
-    description: status after module execution
+    description: Status after module execution.
     returned: always
     type: str
 changed:
-    description: check to see if a change was made on the device
+    description: Check to see if a change was made on the device.
     returned: always
     type: bool
 '''

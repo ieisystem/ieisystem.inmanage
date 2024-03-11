@@ -50,8 +50,8 @@ options:
         type: str
     server_username:
         description:
-            - SMTP server Username,lenth be 4 to 64 bits,
-            - must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
+            - SMTP server Username,lenth be 4 to 64 bits.
+            - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
             - Required when I(server_auth=enable).
         type: str
     server_password:
@@ -87,7 +87,7 @@ options:
         type: str
     asset_tag:
         description:
-            - product asset label,
+            - Product asset label.
         choices: ['enable', 'disable']
         type: str
     event_level:

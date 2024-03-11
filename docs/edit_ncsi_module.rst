@@ -141,7 +141,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>NCSI mode, auto-Auto Failover,  manual-Manual Switch.</div>
-                                            <div>Only M6 model supports <code>Disable</code> Settings</div>
+                                            <div>Only M6 model supports <code>Disable</code> Settings.</div>
                                                         </td>
             </tr>
                                 <tr>

@@ -27,11 +27,11 @@ options:
         type: str
     id:
         description:
-            - fan id 255 is for all fans,0~n.
+            - Fan id 255 is for all fans,0~n.
         type: int
     fan_speed:
         description:
-            - fan speed (duty ratio), range in 1 - 100.
+            - Fan speed (duty ratio), range in 1 - 100.
         type: int
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

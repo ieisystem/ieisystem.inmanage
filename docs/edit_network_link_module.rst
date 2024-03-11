@@ -87,8 +87,8 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>This option is enabled to allow the device to perform automatic configuration to</div>
-                                            <div>achieve the best possible mode of operation(speed and duplex) over a link.</div>
+                                            <div>This option allows the device to perform auto-configuration.</div>
+                                            <div>To achieve the best mode of operation (speed and duplex) on the link.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -282,7 +282,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: link test
+    - name: Link test
       hosts: inmanage
       connection: local
       gather_facts: no

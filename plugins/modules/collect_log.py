@@ -22,7 +22,7 @@ notes:
 options:
     file_url:
         description:
-            - File download path or path with filename , e.g. filepath/filename.tar.
+            - File download path or path with filename , for example filepath/filename.tar.
         type: str
         required: true
 extends_documentation_fragment:

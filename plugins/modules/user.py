@@ -40,9 +40,9 @@ options:
         type: str
     role_id:
         description:
-            - user group.
-            - default user group 'Administrator', 'Operator', 'User'.
-            - use command C(user_group_info) can get all group information.
+            - User group.
+            - Default user group 'Administrator', 'Operator', 'User'.
+            - Use command C(user_group_info) can get all group information.
         type: str
     access:
         description:

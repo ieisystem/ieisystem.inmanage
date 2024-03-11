@@ -22,12 +22,12 @@ notes:
 options:
     bak_file:
         description:
-            - select backup file or bak folder.
+            - Select backup file or bak folder.
         required: true
         type: str
     item:
         description:
-            - select export item.
+            - Select export item.
             - Only the M5 model supports this parameter.
         choices: ['all', 'network', 'dns', 'service', 'ntp', 'smtp', 'snmptrap', 'ad', 'ldap', 'user','bios']
         type: str

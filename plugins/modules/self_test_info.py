@@ -25,7 +25,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: self test
+- name: Self test
   hosts: inmanage
   connection: local
   gather_facts: no

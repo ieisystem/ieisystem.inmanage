@@ -25,7 +25,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: support list test
+- name: Support list test
   hosts: inmanage
   connection: local
   gather_facts: no

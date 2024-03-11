@@ -28,8 +28,8 @@ options:
         type: int
     snmp_status:
         description:
-            - NMP read/write status of customize,
-            - the input parameters are 'v1get', 'v1set', 'v2cget', 'v2cset', 'v3get', 'v3set',separated by commas,such as v1get,v1set,v2cget.
+            - NMP read/write status of customize.
+            - The input parameters are 'v1get', 'v1set', 'v2cget', 'v2cset', 'v3get', 'v3set',separated by commas,such as v1get,v1set,v2cget.
             - Only the M5 models support this feature.
         type: list
         elements: str
@@ -74,7 +74,7 @@ options:
         type: str
     auth_password:
         description:
-            - Set auth password of V3 trap or v3get/v3set,
+            - Set auth password of V3 trap or v3get/v3set.
             - Password is a string of 8 to 16 alpha-numeric characters.
             - Required when I(auth_protocol) is either C(SHA) or C(MD5).
         type: str
@@ -85,8 +85,8 @@ options:
         type: str
     priv_password:
         description:
-            - Set privacy password of V3 trap or v3get/v3set,
-            - password is a string of 8 to 16 alpha-numeric characters.
+            - Set privacy password of V3 trap or v3get/v3set.
+            - Password is a string of 8 to 16 alpha-numeric characters.
             - Required when I(priv_protocol) is either C(DES) or C(AES).
         type: str
 extends_documentation_fragment:

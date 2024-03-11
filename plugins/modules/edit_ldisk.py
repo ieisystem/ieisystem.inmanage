@@ -37,16 +37,16 @@ options:
         type: int
     option:
         description:
-            - Set operation options fo logical disk,
-            - LOC is Locate Logical Drive,STL is Stop Locate LogicalDrive,
-            - FI is Fast Initialization,SFI is Slow/Full Initialization,
+            - Set operation options fo logical disk.
+            - LOC is Locate Logical Drive,STL is Stop Locate LogicalDrive.
+            - FI is Fast Initialization,SFI is Slow/Full Initialization.
             - SI is Stop Initialization,DEL is Delete LogicalDrive.
             - Required when I(Info=None).
         choices: ['LOC', 'STL', 'FI', 'SFI', 'SI', 'DEL']
         type: str
     duration:
         description:
-            - duration range is 1-255,physical drive under PMC raid controller.
+            - Duration range is 1-255,physical drive under PMC raid controller.
             - Required when I(option=LOC).
             - Only the M6 model supports this parameter.
         type: int
