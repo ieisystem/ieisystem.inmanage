@@ -5,6 +5,16 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.1.0
+======
+
+Minor Changes
+-------------
+
+- Fix any issues in your module that don't meet the ansible module format and documentation requirements.
+- Modify the CI test file to add Ansile-2.16 and python 3.12 tests.
+- Modify the collection description in the README.md file.
+
 v1.0.0
 ======
 
