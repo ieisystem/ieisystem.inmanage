@@ -401,3 +401,14 @@ releases:
       name: volt_info
       namespace: ''
     release_date: '2023-11-08'
+  1.1.0:
+    changes:
+      minor_changes:
+      - Fix any issues in your module that don't meet the ansible module format and
+        documentation requirements.
+      - Modify the CI test file to add Ansile-2.16 and python 3.12 tests.
+      - Modify the collection description in the README.md file.
+    fragments:
+    - 7-edit_readme_and_CI.yaml
+    - 8-edit_documentation.yml
+    release_date: '2024-03-12'
