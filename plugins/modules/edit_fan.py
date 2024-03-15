@@ -22,12 +22,12 @@ notes:
 options:
     mode:
         description:
-            - Control mode, Manual or Automatic ,Manual must be used with fans_peed.
+            - Control mode, Manual or Automatic , Manual must be used with fans_peed.
         choices: ['Automatic', 'Manual']
         type: str
     id:
         description:
-            - Fan id 255 is for all fans,0~n.
+            - Fan id 255 is for all fans, 0~n.
         type: int
     fan_speed:
         description:

@@ -27,27 +27,27 @@ options:
         required: true
     lnr:
         description:
-            - Lower non recoverable threshold,should be integer.
+            - Lower non recoverable threshold, should be integer.
         type: int
     lc:
         description:
-            - Lower critical threshold,should be integer.
+            - Lower critical threshold, should be integer.
         type: int
     lnc:
         description:
-            - Lower non critical threshold,should be integer.
+            - Lower non critical threshold, should be integer.
         type: int
     unc:
         description:
-            - Up non critical threshold,should be integer.
+            - Up non critical threshold, should be integer.
         type: int
     uc:
         description:
-            - Up critical threshold,should be integer.
+            - Up critical threshold, should be integer.
         type: int
     unr:
         description:
-            - Up non recoverable threshold,should be integer.
+            - Up non recoverable threshold, should be integer.
         type: int
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

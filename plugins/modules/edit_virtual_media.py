@@ -22,13 +22,13 @@ notes:
 options:
     local_media_support:
         description:
-            - To enable or disable Local Media Support,check or uncheck the checkbox respectively.
+            - To enable or disable Local Media Support, check or uncheck the checkbox respectively.
             - Only the M5 model supports this parameter.
         choices: ['Enable', 'Disable']
         type: str
     remote_media_support:
         description:
-            - To enable or disable Remote Media support,check or uncheck the checbox respectively.
+            - To enable or disable Remote Media support, check or uncheck the checkbox respectively.
         choices: ['Enable', 'Disable']
         type: str
     mount_type:
@@ -39,7 +39,7 @@ options:
         type: str
     same_settings:
         description:
-            - Same settings with CD,0 is No,1 is Yes.
+            - Same settings with I(CD), 0 is No, 1 is Yes.
             - Required when I(mount_type=0).
         choices: [0, 1]
         type: int
@@ -64,7 +64,7 @@ options:
         type: str
     remote_domain_name:
         description:
-            - Remote Domain Name,Domain Name field is optional.
+            - Remote Domain Name, Domain Name field is optional.
         type: str
     remote_user_name:
         description:

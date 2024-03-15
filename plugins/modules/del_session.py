@@ -22,7 +22,7 @@ notes:
 options:
     sid:
         description:
-            - Session Id , input "all" to delete all sessions.
+            - Session Id, input "all" to delete all sessions.
         type: str
         required: true
 extends_documentation_fragment:

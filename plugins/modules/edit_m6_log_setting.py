@@ -28,40 +28,40 @@ options:
         type: str
     host_tag:
         description:
-            - System log host tag,set when I(status=enable).
+            - System log host tag, set when I(status=enable).
         choices: ['HostName', 'SerialNum', 'AssertTag']
         type: str
     level:
         description:
-            - Events Level,set when I(status=enable).
+            - Events Level, set when I(status=enable).
         choices: ['Critical', 'Warning', 'Info']
         type: str
     protocol_type:
         description:
-            - Protocol Type,set when I(status=enable).
+            - Protocol Type, set when I(status=enable).
         choices: ['UDP', 'TCP']
         type: str
     server_id:
         description:
-            - Syslog Server ID,set when I(status=enable).
+            - Syslog Server ID, set when I(status=enable).
         choices: [0, 1, 2, 3]
         type: int
     server_addr:
         description:
-            - Server Address,set when server_id is not none.
+            - Server Address, set when server_id is not none.
         type: str
     server_port:
         description:
-            - Server Address,set when server_id is not none.
+            - Server Address, set when server_id is not none.
         type: int
     log_type:
         description:
-            - Remote Log Type,set when server_id is not none.
+            - Remote Log Type, set when server_id is not none.
         choices: ['idl', 'audit', 'both']
         type: str
     test:
         description:
-            - Test remote log settings,set when server_id is not none.
+            - Test remote log settings, set when server_id is not none.
         default: False
         type: bool
 extends_documentation_fragment:

@@ -98,7 +98,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Lower critical threshold,should be integer.</div>
+                                            <div>Lower critical threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -113,7 +113,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Lower non critical threshold,should be integer.</div>
+                                            <div>Lower non critical threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -128,7 +128,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Lower non recoverable threshold,should be integer.</div>
+                                            <div>Lower non recoverable threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -237,7 +237,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Up critical threshold,should be integer.</div>
+                                            <div>Up critical threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -252,7 +252,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Up non critical threshold,should be integer.</div>
+                                            <div>Up non critical threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -267,7 +267,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Up non recoverable threshold,should be integer.</div>
+                                            <div>Up non recoverable threshold, should be integer.</div>
                                                         </td>
             </tr>
                                 <tr>

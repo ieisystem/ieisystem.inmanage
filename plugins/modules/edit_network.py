@@ -22,13 +22,13 @@ notes:
 options:
     interface_name:
         description:
-            - Set interface_name.
+            - Set interface name. Select the LAN interface to be configured.
         choices: ['eth0', 'eth1', 'bond0']
         required: true
         type: str
     lan_enable:
         description:
-            - Enable or disable this interface. If disable , you cannot use this interface any more.
+            - Enable or disable this interface. If disable, you cannot use this interface any more.
         choices: ['enable', 'disable']
         required: true
         type: str

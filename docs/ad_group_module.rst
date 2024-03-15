@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Group domain.</div>
+                                            <div>Enter the Role Group Domain. This is the domain where the role group is located.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -117,7 +117,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Kvm privilege.</div>
+                                            <div>This field provides access to KVM for AD authenticated role group user.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -132,7 +132,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Group name.</div>
+                                            <div>Enter the Role Group Name. This name identifies the role group in Active Directory.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -169,7 +169,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Group privilege.</div>
+                                            <div>Enter the Role Group Privilege. This is the level of privilege to be assigned for this role group.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -286,7 +286,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Vmedia privilege.</div>
+                                            <div>This field provides access to VMedia for AD authenticated role group user.</div>
                                                         </td>
             </tr>
                         </table>

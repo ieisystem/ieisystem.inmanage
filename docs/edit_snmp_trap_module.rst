@@ -83,7 +83,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set auth password of V3 trap, password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Set the authentication password for the V3 trap.</div>
+                                            <div>The password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>auth_protocol</em> is either <code>SHA</code> or <code>MD5</code>.</div>
                                                         </td>
             </tr>
@@ -104,7 +105,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Choose authentication.</div>
+                                            <div>Choose the authentication protocol for the V3 trap.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -134,7 +135,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set contact, can set NULL.</div>
+                                            <div>Set the contact, can be NULL.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -150,7 +151,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set Engine ID of V3 trap, engine ID is a string of 10 to 48 hex characters, must even, can set NULL.</div>
+                                            <div>Specifies an engine identifier for the V3 trap. The value should be string of 10 to 48 hex characters, must be even, can be NULL.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -221,7 +222,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set host Location, can set NULL.</div>
+                                            <div>Set the host location, can be NULL.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -237,7 +238,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set host OS, can set NULL.</div>
+                                            <div>Set the host operating system, can be NULL.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -268,7 +269,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set privacy password of V3 trap, password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Set the privacy password for the V3 trap.</div>
+                                            <div>The password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>priv_protocol</em> is either <code>DES</code> or <code>AES</code>.</div>
                                                         </td>
             </tr>
@@ -289,7 +291,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Choose Privacy.</div>
+                                            <div>Choose the privacy protocol for the V3 trap.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -368,7 +370,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set system ID, can set NULL.</div>
+                                            <div>Set the system ID, can be NULL.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -384,7 +386,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set system name, can set NULL.</div>
+                                            <div>Set the system name, can be NULL.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -400,7 +402,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set SNMP trap Port(1-65535).</div>
+                                            <div>Set a port for the SNMP trap in the range of 1 to 65535.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -431,7 +433,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set user name of V3 trap.</div>
+                                            <div>Set the username for the V3 trap.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -452,7 +454,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>SNMP trap version,1 is v1,2 is v2c(v2),3 is v3,0 is disable snmp trap.</div>
+                                            <div>SNMP trap version, 1 is v1, 2 is v2c(v2), 3 is v3, 0 is disable snmp trap.</div>
                                             <div>Only the M6 model supports <code>0</code> Settings.</div>
                                                         </td>
             </tr>

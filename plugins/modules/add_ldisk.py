@@ -28,7 +28,7 @@ options:
     ctrl_id:
         description:
             - Raid controller ID.
-            - Required when I(Info=None) and controller type is LSI,PMC or MV.
+            - Required when I(Info=None) and controller type is LSI, PMC or MV.
         type: int
     level:
         description:
@@ -39,9 +39,9 @@ options:
     size:
         description:
             - Strip Size, 0 - 32k, 1 - 64k, 2 - 128k, 3 - 256k, 4 - 512k, 5 - 1024k.
-            - Required when I(Info=None) and controller type is LSI,PMC or MV.
-            - When the controller type is MV,size is [0, 1].
-            - When the controller type is LSI or PMC,size is [1, 2, 3, 4, 5].
+            - Required when I(Info=None) and controller type is LSI, PMC or MV.
+            - When the controller type is MV, size is [0, 1].
+            - When the controller type is LSI or PMC, size is [1, 2, 3, 4, 5].
         choices: [0, 1, 2, 3, 4, 5]
         type: int
     access:
@@ -70,7 +70,7 @@ options:
         type: int
     cache:
         description:
-            - Drive Cache, 1 - Unchanged, 2 - Enabled,3 - Disabled.
+            - Drive Cache, 1 - Unchanged, 2 - Enabled, 3 - Disabled.
             - Required when I(Info=None) and controller type is LSI.
         choices: [1, 2, 3]
         type: int
@@ -87,7 +87,7 @@ options:
         type: int
     slot:
         description:
-            - Slot Num,input multiple slotNumber like 0,1,2....
+            - Slot Num, input multiple slotNumber like 0, 1, 2....
             - Required when I(Info=None) and controller type is LSI or PMC.
         type: list
         elements: int

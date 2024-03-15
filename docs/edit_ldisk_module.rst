@@ -99,7 +99,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Duration range is 1-255,physical drive under PMC raid controller.</div>
+                                            <div>Duration range is 1-255, physical drive under PMC raid controller.</div>
                                             <div>Required when <em>option=LOC</em>.</div>
                                             <div>Only the M6 model supports this parameter.</div>
                                                         </td>
@@ -173,10 +173,10 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set operation options fo logical disk.</div>
-                                            <div>LOC is Locate Logical Drive,STL is Stop Locate LogicalDrive.</div>
-                                            <div>FI is Fast Initialization,SFI is Slow/Full Initialization.</div>
-                                            <div>SI is Stop Initialization,DEL is Delete LogicalDrive.</div>
+                                            <div>Set operation options for a logical disk.</div>
+                                            <div>LOC is Locate Logical Drive, STL is Stop Locate LogicalDrive.</div>
+                                            <div>FI is Fast Initialization, SFI is Slow/Full Initialization.</div>
+                                            <div>SI is Stop Initialization, DEL is Delete LogicalDrive.</div>
                                             <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>

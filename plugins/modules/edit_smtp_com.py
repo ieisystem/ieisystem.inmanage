@@ -33,11 +33,11 @@ options:
         type: str
     server_port:
         description:
-            - SMTP server port,The Identification for retry count configuration(1-65535).
+            - SMTP server port, The Identification for retry count configuration(1-65535).
         type: int
     server_secure_port:
         description:
-            - SMTP server sesure port,The Identification for retry count configuration(1-65535).
+            - SMTP server secure port, The Identification for retry count configuration(1-65535).
         type: int
     email:
         description:
@@ -50,13 +50,13 @@ options:
         type: str
     server_username:
         description:
-            - SMTP server Username,lenth be 4 to 64 bits.
+            - SMTP server Username, length be 4 to 64 bits.
             - Must start with letters and cannot contain ','(comma) ':'(colon) ' '(space) ';'(semicolon) '\\'(backslash).
             - Required when I(server_auth=enable).
         type: str
     server_password:
         description:
-            - SMTP server Password,lenth be 4 to 64 bits,cannot contain ' '(space).
+            - SMTP server Password, length be 4 to 64 bits, cannot contain ' '(space).
             - Required when I(server_auth=enable).
         type: str
     ssl_tls_enable:

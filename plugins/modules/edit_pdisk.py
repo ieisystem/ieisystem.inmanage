@@ -37,12 +37,12 @@ options:
         type: int
     option:
         description:
-            - Set operation options fo physical disk.
-            - UG is Unconfigured Good,UB is Unconfigured Bad.
-            - OFF is offline,FAIL is Failed,RBD is Rebuild.
-            - ON is Online,JB is JBOD,ES is Drive Erase stop.
-            - EM is Drive Erase Simple,EN is Drive Erase Normal.
-            - ET is Drive Erase Through,LOC is Locate,STL is Stop Locate.
+            - Set operation options for a physical disk.
+            - UG is Unconfigured Good, UB is Unconfigured Bad.
+            - OFF is offline, FAIL is Failed, RBD is Rebuild.
+            - ON is Online, JB is JBOD, ES is Drive Erase stop.
+            - EM is Drive Erase Simple, EN is Drive Erase Normal.
+            - ET is Drive Erase Through, LOC is Locate, STL is Stop Locate.
             - HS is Hot spare.
             - Required when I(Info=None).
             - Only the M5 model supports C(HS) Settings.
@@ -71,14 +71,14 @@ options:
         type: str
     logical_drivers:
         description:
-            - Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0,1,2.....
+            - Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0, 1, 2.....
             - Required when I(Info=None) and I(option=HS) and I(action=dedicate).
             - Only the M5 model supports this parameter.
         type: list
         elements: int
     duration:
         description:
-            - Duration range is 1-255,physical drive under PMC raid controller.
+            - Duration range is 1-255, physical drive under PMC raid controller.
             - Required when I(option=LOC).
             - Only the M6 model supports this parameter.
         type: int

@@ -22,7 +22,7 @@ notes:
 options:
     bond:
         description:
-            - Network bond status,If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.
+            - Network bond status, If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.
         choices: ['enable', 'disable']
         type: str
     interface:

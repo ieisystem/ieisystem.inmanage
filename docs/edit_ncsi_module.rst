@@ -140,7 +140,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>NCSI mode, auto-Auto Failover,  manual-Manual Switch.</div>
+                                            <div>NCSI mode, auto-Auto Failover, manual-Manual Switch.</div>
                                             <div>Only M6 model supports <code>Disable</code> Settings.</div>
                                                         </td>
             </tr>
@@ -166,7 +166,7 @@ Parameters
                                                                 <td>
                                             <div>Nic type.</div>
                                             <div>Only NF3280A6 and NF3180A6 model supports <code>Disable</code> Settings, but not support <code>PHY</code> Settings.</div>
-                                            <div>M6 model only support <code>OCP</code>,<code>OCP1</code>,<code>PCIE</code> settings.</div>
+                                            <div>M6 model only support <code>OCP</code>, <code>OCP1</code>, <code>PCIE</code> settings.</div>
                                                         </td>
             </tr>
                                 <tr>

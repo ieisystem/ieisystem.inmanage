@@ -32,11 +32,11 @@ options:
         type: str
     name:
         description:
-            - Secret Username.
+            - Secret Username. Specify the Username of an administrator of the Active Directory Server.
         type: str
     code:
         description:
-            - Secret Password.
+            - Secret Password. Specify the Password of the administrator.
         type: str
     timeout:
         description:
@@ -45,19 +45,19 @@ options:
         type: int
     domain:
         description:
-            - User Domain Name.
+            - User Domain Name. Specify the Domain Name for the user for example MyDomain.com.
         type: str
     addr1:
         description:
-            - Domain Controller Server Address1.
+            - Domain Controller Server Address1. Enter the IP address of Active Directory server.
         type: str
     addr2:
         description:
-            - Domain Controller Server Address2.
+            - Domain Controller Server Address2. Enter the IP address of Active Directory server.
         type: str
     addr3:
         description:
-            - Domain Controller Server Address3.
+            - Domain Controller Server Address3. Enter the IP address of Active Directory server.
         type: str
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

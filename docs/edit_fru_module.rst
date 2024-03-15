@@ -97,10 +97,10 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Attribute,CP is Chassis Part Number,CS is Chassis Serial,PM is Product Manufacturer.</div>
-                                            <div>PPN is Product Part Number,PS is Product Serial,PN is Product Name,PV is Product Version.</div>
-                                            <div>PAT is Product Asset Tag,BM is Board Mfg,BPN is Board Product Name,BS is Board Serial.</div>
-                                            <div>BP is Board Part Number.</div>
+                                            <div>CP is Chassis Part Number, CS is Chassis Serial, PM is Product Manufacturer.</div>
+                                            <div>PPN is Product Part Number, PS is Product Serial, PN is Product Name.</div>
+                                            <div>PV is Product Version, PAT is Product Asset Tag, BM is Board Mfg, BPN is Board Product Name.</div>
+                                            <div>BS is Board Serial, BP is Board Part Number.</div>
                                                         </td>
             </tr>
                                 <tr>

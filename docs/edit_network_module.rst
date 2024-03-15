@@ -103,7 +103,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set interface_name.</div>
+                                            <div>Set interface name. Select the LAN interface to be configured.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -122,7 +122,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Enable or disable this interface. If disable , you cannot use this interface any more.</div>
+                                            <div>Enable or disable this interface. If disable, you cannot use this interface any more.</div>
                                                         </td>
             </tr>
                                 <tr>

@@ -37,8 +37,8 @@ options:
         type: str
     file_url:
         description:
-            - BIOS option file.attribute must be used with value.
-            - Mutually exclusive with fileurl format,"/directory/filename".
+            - BIOS option file. attribute must be used with value.
+            - Mutually exclusive with fileurl format, "/directory/filename".
         type: str
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

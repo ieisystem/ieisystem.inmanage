@@ -102,7 +102,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>To enable or disable Local Media Support,check or uncheck the checkbox respectively.</div>
+                                            <div>To enable or disable Local Media Support, check or uncheck the checkbox respectively.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -238,7 +238,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Remote Domain Name,Domain Name field is optional.</div>
+                                            <div>Remote Domain Name, Domain Name field is optional.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -257,7 +257,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>To enable or disable Remote Media support,check or uncheck the checbox respectively.</div>
+                                            <div>To enable or disable Remote Media support, check or uncheck the checkbox respectively.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -357,7 +357,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Same settings with CD,0 is No,1 is Yes.</div>
+                                            <div>Same settings with <em>CD</em>, 0 is No, 1 is Yes.</div>
                                             <div>Required when <em>mount_type=0</em>.</div>
                                                         </td>
             </tr>

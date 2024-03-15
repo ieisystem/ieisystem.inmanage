@@ -183,7 +183,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Group name.</div>
-                                            <div>The range of group name for M6 model is OEM1,OEM2,OEM3,OEM4.</div>
+                                            <div>The range of group name for M6 model is OEM1, OEM2, OEM3, OEM4.</div>
                                                         </td>
             </tr>
                                 <tr>

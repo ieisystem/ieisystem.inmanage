@@ -268,7 +268,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>User id,The range is 1 to 16.</div>
+                                            <div>User id, The range is 1 to 16.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -283,7 +283,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>User name,Required when uid is None.</div>
+                                            <div>User name, Required when uid is None.</div>
                                                         </td>
             </tr>
                                 <tr>

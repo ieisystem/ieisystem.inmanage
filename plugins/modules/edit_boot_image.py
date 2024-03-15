@@ -22,7 +22,8 @@ notes:
 options:
     image:
         description:
-            - BMC boot image. 0-Higher firmware version;1-Image 1;2-Image 2;3-Lower firmware version;4-Latest updated firmware;5-Not latest updated firmware.
+            - BMC boot image.
+            - 0-Higher firmware version; 1-Image 1; 2-Image 2; 3-Lower firmware version; 4-Latest updated firmware; 5-Not latest updated firmware.
         choices: [0, 1, 2, 3, 4, 5]
         type: int
         required: true

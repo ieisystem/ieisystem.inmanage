@@ -117,7 +117,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Maximum jump time(minute),max variety(1-60).</div>
+                                            <div>NTP Maximum jump time(minute), max variety(1-60).</div>
                                             <div>Only the M6 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -228,7 +228,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.</div>
+                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -273,7 +273,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.</div>
+                                            <div>NTP Server4(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -288,7 +288,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server2(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
+                                            <div>NTP Server5(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -303,7 +303,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP Server3(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
+                                            <div>NTP Server6(ipv4 or ipv6 or domain name), set when auto_date is enable.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -318,7 +318,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>NTP syn cycle(minute),sync cycle(5-1440).</div>
+                                            <div>NTP syn cycle(minute), sync cycle(5-1440).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -333,7 +333,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>UTC time zone,chose from {-12, -11.5, -11, ... ,11,11.5,12}.</div>
+                                            <div>UTC time zone, chose from {-12, -11.5, -11, ... , 11, 11.5, 12}.</div>
                                                         </td>
             </tr>
                                 <tr>

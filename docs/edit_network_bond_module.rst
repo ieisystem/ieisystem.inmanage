@@ -106,7 +106,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Network bond status,If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.</div>
+                                            <div>Network bond status, If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.</div>
                                                         </td>
             </tr>
                                 <tr>

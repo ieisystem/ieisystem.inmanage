@@ -27,7 +27,7 @@ options:
         type: str
     host_cfg:
         description:
-            - Host Settings.
+            - Host Settings. Select whether the host name will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     host_name:
@@ -37,12 +37,12 @@ options:
         type: str
     domain_manual:
         description:
-            - Domain Settings.
+            - Domain Settings. Select whether the domain interface will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     domain_iface:
         description:
-            - Network Interface,input like 'eth0_v4', 'eth0_v6', 'eth1_v4', 'eth1_v6', 'bond0_v4', 'bond0_v6'.
+            - Network Interface, input like 'eth0_v4', 'eth0_v6', 'eth1_v4', 'eth1_v6', 'bond0_v4', 'bond0_v6'.
             - Required when I(domain_manual=auto).
         type: str
     domain_name:
@@ -52,12 +52,12 @@ options:
         type: str
     dns_manual:
         description:
-            - DNS Settings.
+            - DNS Settings. Select whether the DNS interface will be configured manually or automatically.
         choices: ['manual', 'auto']
         type: str
     dns_iface:
         description:
-            - DNS Interface,input like 'eth0', 'eth1', 'bond0'.
+            - DNS Interface, input like 'eth0', 'eth1', 'bond0'.
             - Required when I(dns_manual=auto).
         type: str
     dns_priority:

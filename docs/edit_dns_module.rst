@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>DNS Interface,input like &#x27;eth0&#x27;, &#x27;eth1&#x27;, &#x27;bond0&#x27;.</div>
+                                            <div>DNS Interface, input like &#x27;eth0&#x27;, &#x27;eth1&#x27;, &#x27;bond0&#x27;.</div>
                                             <div>Required when <em>dns_manual=auto</em>.</div>
                                                         </td>
             </tr>
@@ -103,7 +103,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>DNS Settings.</div>
+                                            <div>DNS Settings. Select whether the DNS interface will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -205,7 +205,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Network Interface,input like &#x27;eth0_v4&#x27;, &#x27;eth0_v6&#x27;, &#x27;eth1_v4&#x27;, &#x27;eth1_v6&#x27;, &#x27;bond0_v4&#x27;, &#x27;bond0_v6&#x27;.</div>
+                                            <div>Network Interface, input like &#x27;eth0_v4&#x27;, &#x27;eth0_v6&#x27;, &#x27;eth1_v4&#x27;, &#x27;eth1_v6&#x27;, &#x27;bond0_v4&#x27;, &#x27;bond0_v6&#x27;.</div>
                                             <div>Required when <em>domain_manual=auto</em>.</div>
                                                         </td>
             </tr>
@@ -225,7 +225,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Domain Settings.</div>
+                                            <div>Domain Settings. Select whether the domain interface will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -275,7 +275,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Host Settings.</div>
+                                            <div>Host Settings. Select whether the host name will be configured manually or automatically.</div>
                                                         </td>
             </tr>
                                 <tr>
