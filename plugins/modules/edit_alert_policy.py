@@ -35,7 +35,7 @@ options:
         type: str
     type:
         description:
-            - Alert Type. 
+            - Alert Type.
             - Only the M5 model supports this parameter.
         choices: ['snmp', 'email', 'snmpdomain']
         type: str
