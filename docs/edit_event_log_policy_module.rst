@@ -117,7 +117,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Event Log Policy.</div>
+                                            <div>Event log policy.</div>
                                                         </td>
             </tr>
                                 <tr>

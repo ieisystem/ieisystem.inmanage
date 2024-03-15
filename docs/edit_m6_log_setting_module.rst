@@ -104,7 +104,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>System log host tag,set when <em>status=enable</em>.</div>
+                                            <div>System log host tag, set when <em>status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -124,7 +124,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Events Level,set when <em>status=enable</em>.</div>
+                                            <div>Events Level, set when <em>status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -144,7 +144,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Remote Log Type,set when server_id is not none.</div>
+                                            <div>Remote Log Type, set when server_id is not none.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -178,7 +178,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Protocol Type,set when <em>status=enable</em>.</div>
+                                            <div>Protocol Type, set when <em>status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -257,7 +257,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Server Address,set when server_id is not none.</div>
+                                            <div>Server Address, set when server_id is not none.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -278,7 +278,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Syslog Server ID,set when <em>status=enable</em>.</div>
+                                            <div>Syslog Server ID, set when <em>status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -293,7 +293,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Server Address,set when server_id is not none.</div>
+                                            <div>Server Address, set when server_id is not none.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -331,7 +331,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Test remote log settings,set when server_id is not none.</div>
+                                            <div>Test remote log settings, set when server_id is not none.</div>
                                                         </td>
             </tr>
                                 <tr>

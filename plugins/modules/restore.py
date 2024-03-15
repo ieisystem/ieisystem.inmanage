@@ -29,7 +29,7 @@ options:
         description:
             - Select export item.
             - Only the M5 model supports this parameter.
-        choices: ['all', 'network', 'dns', 'service', 'ntp', 'smtp', 'snmptrap', 'ad', 'ldap', 'user','bios']
+        choices: ['all', 'network', 'dns', 'service', 'ntp', 'smtp', 'snmptrap', 'ad', 'ldap', 'user', 'bios']
         type: str
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage

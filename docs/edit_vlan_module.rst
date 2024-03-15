@@ -103,7 +103,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set interface_name.</div>
+                                            <div>Set interface name. Select the LAN interface to be configured.</div>
                                                         </td>
             </tr>
                                 <tr>

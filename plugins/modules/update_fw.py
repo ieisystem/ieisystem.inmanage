@@ -38,13 +38,13 @@ options:
         type: str
     over_ride:
         description:
-            - Reserve Configrations,0-reserve, 1-override.
+            - Reserve Configurations, 0-reserve, 1-override.
         default: 0
         choices: [0, 1]
         type: int
     has_me:
         description:
-            - Update me or not when update bios,only work in INTEL platform,0-no,1-yes.
+            - Update me or not when update bios, only work in INTEL platform, 0-no, 1-yes.
             - Only the M5 model supports this parameter.
         default: 1
         choices: [0, 1]

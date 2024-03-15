@@ -29,7 +29,7 @@ options:
     name:
         description:
             - Group name.
-            - The range of group name for M6 model is OEM1,OEM2,OEM3,OEM4.
+            - The range of group name for M6 model is OEM1, OEM2, OEM3, OEM4.
         required: true
         type: str
     pri:

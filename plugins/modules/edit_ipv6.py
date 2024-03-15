@@ -22,7 +22,7 @@ notes:
 options:
     interface_name:
         description:
-            - Set interface_name.
+            - Set interface name. Select the LAN interface to be configured.
         choices: ['eth0', 'eth1', 'bond0']
         required: True
         type: str

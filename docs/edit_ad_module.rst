@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Domain Controller Server Address1.</div>
+                                            <div>Domain Controller Server Address1. Enter the IP address of Active Directory server.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -98,7 +98,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Domain Controller Server Address2.</div>
+                                            <div>Domain Controller Server Address2. Enter the IP address of Active Directory server.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -113,7 +113,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Domain Controller Server Address3.</div>
+                                            <div>Domain Controller Server Address3. Enter the IP address of Active Directory server.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -128,7 +128,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secret Password.</div>
+                                            <div>Secret Password. Specify the Password of the administrator.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -143,7 +143,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>User Domain Name.</div>
+                                            <div>User Domain Name. Specify the Domain Name for the user for example MyDomain.com.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -192,7 +192,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secret Username.</div>
+                                            <div>Secret Username. Specify the Username of an administrator of the Active Directory Server.</div>
                                                         </td>
             </tr>
                                 <tr>

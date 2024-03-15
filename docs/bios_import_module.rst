@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Suffix is .json/.conf, FILEURI format,&quot;/directory/filename&quot;.</div>
+                                            <div>Suffix is .json/.conf, FILEURI format, &quot;/directory/filename&quot;.</div>
                                                         </td>
             </tr>
                                 <tr>

@@ -113,7 +113,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Fan id 255 is for all fans,0~n.</div>
+                                            <div>Fan id 255 is for all fans, 0~n.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -132,7 +132,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Control mode, Manual or Automatic ,Manual must be used with fans_peed.</div>
+                                            <div>Control mode, Manual or Automatic , Manual must be used with fans_peed.</div>
                                                         </td>
             </tr>
                                 <tr>

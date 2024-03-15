@@ -24,12 +24,12 @@ options:
         description:
             - Nic type.
             - Only NF3280A6 and NF3180A6 model supports C(Disable) Settings, but not support C(PHY) Settings.
-            - M6 model only support C(OCP),C(OCP1),C(PCIE) settings.
-        choices: ['PHY', 'OCP','OCP1', 'PCIE', 'auto', 'Disable']
+            - M6 model only support C(OCP), C(OCP1), C(PCIE) settings.
+        choices: ['PHY', 'OCP', 'OCP1', 'PCIE', 'auto', 'Disable']
         type: str
     mode:
         description:
-            - NCSI mode, auto-Auto Failover,  manual-Manual Switch.
+            - NCSI mode, auto-Auto Failover, manual-Manual Switch.
             - Only M6 model supports C(Disable) Settings.
         choices: ['auto', 'manual', 'Disable']
         type: str

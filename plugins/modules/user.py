@@ -28,11 +28,11 @@ options:
         type: str
     uid:
         description:
-            - User id,The range is 1 to 16.
+            - User id, The range is 1 to 16.
         type: int
     uname:
         description:
-            - User name,Required when uid is None.
+            - User name, Required when uid is None.
         type: str
     upass:
         description:

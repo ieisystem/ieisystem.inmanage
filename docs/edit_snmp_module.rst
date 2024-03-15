@@ -83,8 +83,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set auth password of V3 trap or v3get/v3set.</div>
-                                            <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Set the authentication password for the V3 trap or v3get/v3set.</div>
+                                            <div>The password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>auth_protocol</em> is either <code>SHA</code> or <code>MD5</code>.</div>
                                                         </td>
             </tr>
@@ -105,7 +105,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Choose authentication of V3 trap or v3get/v3set.</div>
+                                            <div>Choose the authentication protocol for the V3 trap or v3get/v3set.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -166,8 +166,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set privacy password of V3 trap or v3get/v3set.</div>
-                                            <div>Password is a string of 8 to 16 alpha-numeric characters.</div>
+                                            <div>Set the privacy password for the V3 trap or v3get/v3set.</div>
+                                            <div>The password is a string of 8 to 16 alphanumeric characters.</div>
                                             <div>Required when <em>priv_protocol</em> is either <code>DES</code> or <code>AES</code>.</div>
                                                         </td>
             </tr>
@@ -188,7 +188,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Choose Privacy of V3 trap or v3get/v3set.</div>
+                                            <div>Choose the privacy protocol for the V3 trap or v3get/v3set.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -267,7 +267,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Read Only Community,Community should between 1 and 16 characters.</div>
+                                            <div>Read Only Community, Community should between 1 and 16 characters.</div>
                                             <div>Only the M6 models support this feature.</div>
                                                         </td>
             </tr>
@@ -283,7 +283,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Read And Write Community,Community should between 1 and 16 characters.</div>
+                                            <div>Read And Write Community, Community should between 1 and 16 characters.</div>
                                             <div>Only the M6 models support this feature.</div>
                                                         </td>
             </tr>
@@ -300,7 +300,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>NMP read/write status of customize.</div>
-                                            <div>The input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;,separated by commas,such as v1get,v1set,v2cget.</div>
+                                            <div>The input parameters are &#x27;v1get&#x27;, &#x27;v1set&#x27;, &#x27;v2cget&#x27;, &#x27;v2cset&#x27;, &#x27;v3get&#x27;, &#x27;v3set&#x27;, separated by commas, such as v1get, v1set, v2cget.</div>
                                             <div>Only the M5 models support this feature.</div>
                                                         </td>
             </tr>
@@ -388,7 +388,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Set user name of V3 trap or v3get/v3set.</div>
+                                            <div>Set a username for the V3 trap or v3get/v3set.</div>
                                                         </td>
             </tr>
                                 <tr>

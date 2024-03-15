@@ -16,7 +16,7 @@ author:
     - WangBaoshan (@ieisystem)
 short_description: Get network information
 description:
-   - Get netowrk information on ieisystem Server.
+   - Get network information on ieisystem Server.
 notes:
    - Supports C(check_mode).
 options: {}

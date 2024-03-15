@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Get netowrk information on ieisystem Server.
+- Get network information on ieisystem Server.
 
 
 .. Aliases

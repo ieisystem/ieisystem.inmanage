@@ -32,11 +32,11 @@ options:
         type: str
     time_zone:
         description:
-            - UTC time zone,chose from {-12, -11.5, -11, ... ,11,11.5,12}.
+            - UTC time zone, chose from {-12, -11.5, -11, ... , 11, 11.5, 12}.
         type: str
     server1:
         description:
-            - NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.
+            - NTP Server1(ipv4 or ipv6 or domain name), set when auto_date is enable.
         type: str
     server2:
         description:
@@ -48,23 +48,23 @@ options:
         type: str
     server4:
         description:
-            - NTP Server1(ipv4 or ipv6 or domain name), set when auto_dateis enable.
+            - NTP Server4(ipv4 or ipv6 or domain name), set when auto_date is enable.
         type: str
     server5:
         description:
-            - NTP Server2(ipv4 or ipv6 or domain name), set when auto_date is enable.
+            - NTP Server5(ipv4 or ipv6 or domain name), set when auto_date is enable.
         type: str
     server6:
         description:
-            - NTP Server3(ipv4 or ipv6 or domain name), set when auto_date is enable.
+            - NTP Server6(ipv4 or ipv6 or domain name), set when auto_date is enable.
         type: str
     syn_cycle:
         description:
-            - NTP syn cycle(minute),sync cycle(5-1440).
+            - NTP syn cycle(minute), sync cycle(5-1440).
         type: int
     max_variety:
         description:
-            - NTP Maximum jump time(minute),max variety(1-60).
+            - NTP Maximum jump time(minute), max variety(1-60).
             - Only the M6 model supports this parameter.
         type: int
 extends_documentation_fragment:

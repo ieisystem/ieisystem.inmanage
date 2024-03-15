@@ -22,7 +22,7 @@ notes:
 options:
     version:
         description:
-            - SNMP trap version,1 is v1,2 is v2c(v2),3 is v3,0 is disable snmp trap.
+            - SNMP trap version, 1 is v1, 2 is v2c(v2), 3 is v3, 0 is disable snmp trap.
             - Only the M6 model supports C(0) Settings.
         choices: [0, 1, 2, 3]
         type: int
@@ -43,60 +43,62 @@ options:
         type: str
     v3username:
         description:
-            - Set user name of V3 trap.
+            - Set the username for the V3 trap.
         type: str
     engine_id:
         description:
-            - Set Engine ID of V3 trap, engine ID is a string of 10 to 48 hex characters, must even, can set NULL.
+            - Specifies an engine identifier for the V3 trap. The value should be string of 10 to 48 hex characters, must be even, can be NULL.
         type: str
     auth_protocol:
         description:
-            - Choose authentication.
+            - Choose the authentication protocol for the V3 trap.
         choices: ['NONE', 'SHA', 'MD5']
         type: str
     auth_password:
         description:
-            - Set auth password of V3 trap, password is a string of 8 to 16 alpha-numeric characters.
+            - Set the authentication password for the V3 trap.
+            - The password is a string of 8 to 16 alphanumeric characters.
             - Required when I(auth_protocol) is either C(SHA) or C(MD5).
         type: str
     priv_protocol:
         description:
-            - Choose Privacy.
+            - Choose the privacy protocol for the V3 trap.
         choices: ['NONE', 'DES', 'AES']
         type: str
     priv_password:
         description:
-            - Set privacy password of V3 trap, password is a string of 8 to 16 alpha-numeric characters.
+            - Set the privacy password for the V3 trap.
+            - The password is a string of 8 to 16 alphanumeric characters.
             - Required when I(priv_protocol) is either C(DES) or C(AES).
         type: str
     system_name:
         description:
-            - Set system name, can set NULL.
+            - Set the system name, can be NULL.
             - Only the M5 model supports this parameter.
         type: str
     system_id:
         description:
-            - Set system ID, can set NULL.
+            - Set the system ID, can be NULL.
             - Only the M5 model supports this parameter.
         type: str
     location:
         description:
-            - Set host Location, can set NULL.
+            - Set the host location, can be NULL.
             - Only the M5 model supports this parameter.
         type: str
     contact:
         description:
-            - Set contact, can set NULL.
+            - Set the contact, can be NULL.
             - Only the M5 model supports this parameter.
         type: str
     os:
         description:
-            - Set host OS, can set NULL.
+            - Set the host operating system, can be NULL.
             - Only the M5 model supports this parameter.
         type: str
     trap_port:
         description:
-            - Set SNMP trap Port(1-65535).
+            - Set a port for the SNMP trap in the range of 1 to 65535.
             - Only the M5 model supports this parameter.
         type: int
 extends_documentation_fragment:

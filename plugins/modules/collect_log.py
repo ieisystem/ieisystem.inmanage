@@ -16,13 +16,13 @@ author:
     - WangBaoshan (@ieisystem)
 short_description: Collect logs
 description:
-   - Collect logs on ieisystem Server,it takes about 5 minutes.
+   - Collect logs on ieisystem Server, it takes about 5 minutes.
 notes:
    - Does not support C(check_mode).
 options:
     file_url:
         description:
-            - File download path or path with filename , for example filepath/filename.tar.
+            - File download path or path with filename, for example filepath/filename.tar.
         type: str
         required: true
 extends_documentation_fragment:

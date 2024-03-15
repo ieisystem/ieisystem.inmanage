@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Collect logs on ieisystem Server,it takes about 5 minutes.
+- Collect logs on ieisystem Server, it takes about 5 minutes.
 
 
 .. Aliases
@@ -83,7 +83,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>File download path or path with filename , for example filepath/filename.tar.</div>
+                                            <div>File download path or path with filename, for example filepath/filename.tar.</div>
                                                         </td>
             </tr>
                                 <tr>

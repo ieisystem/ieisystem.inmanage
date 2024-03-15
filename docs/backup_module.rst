@@ -132,7 +132,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>Export item.</div>
-                                            <div>The values for M5 modules are &#x27;all&#x27;, &#x27;network&#x27;, &#x27;service&#x27;, &#x27;ntp&#x27;, &#x27;snmptrap&#x27;, &#x27;dns&#x27;, &#x27;smtp&#x27;, &#x27;ad&#x27;, &#x27;ldap&#x27;, &#x27;user&#x27;,&#x27;bios&#x27;.</div>
+                                            <div>The values for M5 modules are &#x27;all&#x27;, &#x27;network&#x27;, &#x27;service&#x27;, &#x27;ntp&#x27;, &#x27;snmptrap&#x27;, &#x27;dns&#x27;, &#x27;smtp&#x27;, &#x27;ad&#x27;, &#x27;ldap&#x27;, &#x27;user&#x27;, &#x27;bios&#x27;.</div>
                                             <div>The values for M6 modules are &#x27;all&#x27;, &#x27;network&#x27;, &#x27;service&#x27;, &#x27;ntp&#x27;, &#x27;snmptrap&#x27;,  &#x27;kvm&#x27;, &#x27;ipmi&#x27;, &#x27;authentication&#x27;, &#x27;syslog&#x27;.</div>
                                             <div>The values for M7 modules are &#x27;all&#x27;, &#x27;network&#x27;, &#x27;service&#x27;, &#x27;syslog&#x27;, &#x27;ncsi&#x27;.</div>
                                                         </td>

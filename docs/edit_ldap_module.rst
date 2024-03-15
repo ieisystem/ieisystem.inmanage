@@ -103,6 +103,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>Attribute of User Login.</div>
+                                            <div>The Attribute of User Login field indicates to the LDAP/E-Directory server which attribute should be used to identify the user.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -118,9 +119,11 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Search Base.</div>
-                                            <div>Search base is a string of 4 to 64 alpha-numeric characters.</div>
+                                            <div>The Search Base allows the LDAP/E-Directory server to find which part of the external directory tree is to be searched.</div>
+                                            <div>This search base may be equivalent to the organization or the group of the external directory.</div>
+                                            <div>Search base is a string of 4 to 64 alphanumeric characters.</div>
                                             <div>It must start with an alphabetical character.</div>
-                                            <div>Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
+                                            <div>Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -187,7 +190,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Password.</div>
+                                            <div>Password. The Bind password is also used in the bind authentication operations between client and server.</div>
                                             <div>Required when <em>enable=enable</em>.</div>
                                                         </td>
             </tr>
@@ -203,10 +206,10 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Bind DN.</div>
-                                            <div>Bind DN is a string of 4 to 64 alpha-numeric characters.</div>
+                                            <div>Bind DN. The Bind DN is used in bind operations, which authenticates the client to the server.</div>
+                                            <div>Bind DN is a string of 4 to 64 alphanumeric characters.</div>
                                             <div>It must start with an alphabetical character.</div>
-                                            <div>Special Symbols like dot(.), comma(,), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
+                                            <div>Special Symbols like dot(.), comma(, ), hyphen(-), underscore(_), equal-to(=) are allowed.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -370,7 +373,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Server Port.</div>
+                                            <div>Server Port. Specify the LDAP/E-Directory Port.</div>
                                                         </td>
             </tr>
                                 <tr>

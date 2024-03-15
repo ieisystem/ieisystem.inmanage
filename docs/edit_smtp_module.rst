@@ -119,7 +119,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>LAN Channel,eth0 is shared,eth1 is dedicated.</div>
+                                            <div>LAN Channel, eth0 is shared, eth1 is dedicated.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -198,7 +198,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Primary SMTP server Password,lenth be 4 to 64 bits,cannot contain &#x27; &#x27;(space).</div>
+                                            <div>Primary SMTP server Password, length be 4 to 64 bits, cannot contain &#x27; &#x27;(space).</div>
                                             <div>Required when <em>primary_auth=enable</em>.</div>
                                                         </td>
             </tr>
@@ -214,7 +214,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Primary SMTP server port,The Identification for retry count configuration(1-65535).</div>
+                                            <div>Primary SMTP server port, The Identification for retry count configuration(1-65535).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -248,8 +248,8 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Primary SMTP server Username,lenth be 4 to 64 bits.</div>
-                                            <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
+                                            <div>Primary SMTP server Username, length be 4 to 64 bits.</div>
+                                            <div>Must start with letters and cannot contain &#x27;, &#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -377,7 +377,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secondary SMTP server Password,lenth be 4 to 64 bits,cannot contain &#x27; &#x27;(space).</div>
+                                            <div>Secondary SMTP server Password, length be 4 to 64 bits, cannot contain &#x27; &#x27;(space).</div>
                                             <div>Required when <em>secondary_auth=enable</em>.</div>
                                                         </td>
             </tr>
@@ -393,7 +393,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secondary SMTP server port,The Identification for retry count configuration(1-65535).</div>
+                                            <div>Secondary SMTP server port, The Identification for retry count configuration(1-65535).</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -427,7 +427,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Secondary SMTP server Username,lenth be 4 to 64 bits.</div>
+                                            <div>Secondary SMTP server Username, length be 4 to 64 bits.</div>
                                             <div>Must start with letters and cannot contain &#x27;,&#x27;(comma) &#x27;:&#x27;(colon) &#x27; &#x27;(space) &#x27;;&#x27;(semicolon) &#x27;\&#x27;(backslash).</div>
                                                         </td>
             </tr>

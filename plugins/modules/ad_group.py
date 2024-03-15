@@ -28,26 +28,26 @@ options:
         type: str
     name:
         description:
-            - Group name.
+            - Enter the Role Group Name. This name identifies the role group in Active Directory.
         type: str
         required: true
     domain:
         description:
-            - Group domain.
+            - Enter the Role Group Domain. This is the domain where the role group is located.
         type: str
     pri:
         description:
-            - Group privilege.
+            - Enter the Role Group Privilege. This is the level of privilege to be assigned for this role group.
         choices: ['administrator', 'user', 'operator', 'oem', 'none']
         type: str
     kvm:
         description:
-            - Kvm privilege.
+            - This field provides access to KVM for AD authenticated role group user.
         choices: ['enable', 'disable']
         type: str
     vm:
         description:
-            - Vmedia privilege.
+            - This field provides access to VMedia for AD authenticated role group user.
         choices: ['enable', 'disable']
         type: str
 extends_documentation_fragment:

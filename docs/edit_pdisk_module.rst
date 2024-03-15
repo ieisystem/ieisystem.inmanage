@@ -137,7 +137,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Duration range is 1-255,physical drive under PMC raid controller.</div>
+                                            <div>Duration range is 1-255, physical drive under PMC raid controller.</div>
                                             <div>Required when <em>option=LOC</em>.</div>
                                             <div>Only the M6 model supports this parameter.</div>
                                                         </td>
@@ -208,7 +208,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0,1,2.....</div>
+                                            <div>Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0, 1, 2.....</div>
                                             <div>Required when <em>Info=None</em> and <em>option=HS</em> and <em>action=dedicate</em>.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
@@ -241,12 +241,12 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Set operation options fo physical disk.</div>
-                                            <div>UG is Unconfigured Good,UB is Unconfigured Bad.</div>
-                                            <div>OFF is offline,FAIL is Failed,RBD is Rebuild.</div>
-                                            <div>ON is Online,JB is JBOD,ES is Drive Erase stop.</div>
-                                            <div>EM is Drive Erase Simple,EN is Drive Erase Normal.</div>
-                                            <div>ET is Drive Erase Through,LOC is Locate,STL is Stop Locate.</div>
+                                            <div>Set operation options for a physical disk.</div>
+                                            <div>UG is Unconfigured Good, UB is Unconfigured Bad.</div>
+                                            <div>OFF is offline, FAIL is Failed, RBD is Rebuild.</div>
+                                            <div>ON is Online, JB is JBOD, ES is Drive Erase stop.</div>
+                                            <div>EM is Drive Erase Simple, EN is Drive Erase Normal.</div>
+                                            <div>ET is Drive Erase Through, LOC is Locate, STL is Stop Locate.</div>
                                             <div>HS is Hot spare.</div>
                                             <div>Required when <em>Info=None</em>.</div>
                                             <div>Only the M5 model supports <code>HS</code> Settings.</div>

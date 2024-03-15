@@ -22,7 +22,7 @@ notes:
 options:
     policy:
         description:
-            - Event Log Policy.
+            - Event log policy.
         choices: ['Linear', 'Circular']
         type: str
         required: true

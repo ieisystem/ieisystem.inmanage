@@ -106,7 +106,8 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>BMC boot image. 0-Higher firmware version;1-Image 1;2-Image 2;3-Lower firmware version;4-Latest updated firmware;5-Not latest updated firmware.</div>
+                                            <div>BMC boot image.</div>
+                                            <div>0-Higher firmware version; 1-Image 1; 2-Image 2; 3-Lower firmware version; 4-Latest updated firmware; 5-Not latest updated firmware.</div>
                                                         </td>
             </tr>
                                 <tr>

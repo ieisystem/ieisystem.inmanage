@@ -108,7 +108,7 @@ Parameters
                                                                                     <b>Default:</b><br/><div style="color: blue">1</div>
                                     </td>
                                                                 <td>
-                                            <div>Update me or not when update bios,only work in INTEL platform,0-no,1-yes.</div>
+                                            <div>Update me or not when update bios, only work in INTEL platform, 0-no, 1-yes.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -163,7 +163,7 @@ Parameters
                                                                                     <b>Default:</b><br/><div style="color: blue">0</div>
                                     </td>
                                                                 <td>
-                                            <div>Reserve Configrations,0-reserve, 1-override.</div>
+                                            <div>Reserve Configurations, 0-reserve, 1-override.</div>
                                                         </td>
             </tr>
                                 <tr>

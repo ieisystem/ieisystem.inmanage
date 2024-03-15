@@ -22,7 +22,7 @@ notes:
 options:
     file_url:
         description:
-            - Suffix is .json/.conf, FILEURI format,"/directory/filename".
+            - Suffix is .json/.conf, FILEURI format, "/directory/filename".
         required: true
         type: str
 extends_documentation_fragment:

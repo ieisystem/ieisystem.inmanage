@@ -130,7 +130,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Drive Cache, 1 - Unchanged, 2 - Enabled,3 - Disabled.</div>
+                                            <div>Drive Cache, 1 - Unchanged, 2 - Enabled, 3 - Disabled.</div>
                                             <div>Required when <em>Info=None</em> and controller type is LSI.</div>
                                                         </td>
             </tr>
@@ -147,7 +147,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Raid controller ID.</div>
-                                            <div>Required when <em>Info=None</em> and controller type is LSI,PMC or MV.</div>
+                                            <div>Required when <em>Info=None</em> and controller type is LSI, PMC or MV.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -383,9 +383,9 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>Strip Size, 0 - 32k, 1 - 64k, 2 - 128k, 3 - 256k, 4 - 512k, 5 - 1024k.</div>
-                                            <div>Required when <em>Info=None</em> and controller type is LSI,PMC or MV.</div>
-                                            <div>When the controller type is MV,size is [0, 1].</div>
-                                            <div>When the controller type is LSI or PMC,size is [1, 2, 3, 4, 5].</div>
+                                            <div>Required when <em>Info=None</em> and controller type is LSI, PMC or MV.</div>
+                                            <div>When the controller type is MV, size is [0, 1].</div>
+                                            <div>When the controller type is LSI or PMC, size is [1, 2, 3, 4, 5].</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -400,7 +400,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Slot Num,input multiple slotNumber like 0,1,2....</div>
+                                            <div>Slot Num, input multiple slotNumber like 0, 1, 2....</div>
                                             <div>Required when <em>Info=None</em> and controller type is LSI or PMC.</div>
                                                         </td>
             </tr>

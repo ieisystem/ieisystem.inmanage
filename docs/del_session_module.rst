@@ -177,7 +177,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Session Id , input &quot;all&quot; to delete all sessions.</div>
+                                            <div>Session Id, input &quot;all&quot; to delete all sessions.</div>
                                                         </td>
             </tr>
                                 <tr>
