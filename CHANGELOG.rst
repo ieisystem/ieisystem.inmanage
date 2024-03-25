@@ -5,6 +5,16 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.1.1
+======
+
+Minor Changes
+-------------
+
+- Change edit_alert_policy module description information does not have the first letter capitalization problem.
+- Fix problems such as typos or grammatical errors in the document.
+- Modify the readme.md information about installing supported modules.
+
 v1.1.0
 ======
 
