@@ -412,3 +412,14 @@ releases:
     - 7-edit_readme_and_CI.yaml
     - 8-edit_documentation.yml
     release_date: '2024-03-12'
+  1.1.1:
+    changes:
+      minor_changes:
+      - Change edit_alert_policy module description information does not have the
+        first letter capitalization problem.
+      - Fix problems such as typos or grammatical errors in the document.
+      - Modify the readme.md information about installing supported modules.
+    fragments:
+    - 10-edit_doc_spell.yaml
+    - 11-edit_doc_first_letter.yaml
+    release_date: '2024-03-25'
