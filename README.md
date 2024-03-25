@@ -15,8 +15,8 @@ Ansible module is suitable for ansible version 2.10
 
 Main steps:
 
-Install Ansible 2.10
-Install inManage 
+* Install Ansible 2.10
+* Install inManage: pip install inManage
 <!--- A step-by-step reproduction of the problem is helpful if there is no related issue -->
 Thes modules require the following to be installed on the control node:
 
