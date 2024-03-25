@@ -104,7 +104,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Alert destination. The address of the server receiving trap information sent by Trap.</div>
-                                            <div>when type is snmp, specify an IP address.</div>
+                                            <div>When type is snmp, specify an IP address.</div>
                                             <div>When type is email, specify a username.</div>
                                             <div>When type is snmpdomain, specify a domain.</div>
                                                         </td>

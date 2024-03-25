@@ -42,7 +42,7 @@ options:
     destination:
         description:
             - Alert destination. The address of the server receiving trap information sent by Trap.
-            - when type is snmp, specify an IP address.
+            - When type is snmp, specify an IP address.
             - When type is email, specify a username.
             - When type is snmpdomain, specify a domain.
         type: str
