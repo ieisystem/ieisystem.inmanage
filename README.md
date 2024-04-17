@@ -6,22 +6,22 @@ This repo contains the `ieisystem.inmanage` Ansible Collection. Collections are 
 
 ## Tested with Ansible
 
-Tested with the current Ansible 2.10 releases and the current development version of Ansible. Ansible versions before 2.10.0 are not supported.
+Tested with the current Ansible 2.14 releases and the current development version of Ansible. Ansible versions before 2.14 are not supported.
 
 ## External requirements
 
 Circumstance instruction:
-Ansible module is suitable for ansible version 2.10
+Ansible module is suitable for ansible version 2.14
 
 Main steps:
 
-* Install Ansible 2.10
+* Install Ansible 2.14
 * Install inManage: pip install inManage
 <!--- A step-by-step reproduction of the problem is helpful if there is no related issue -->
 Thes modules require the following to be installed on the control node:
 
 * Python 3.7 or later
-* [Ansible](http://www.ansible.com) 2.10 or later
+* [Ansible](http://www.ansible.com) 2.14 or later
 * [ieisystem support] [inManage](https://github.com/ieisystem/inManage) 1.0.0 or later
 
 ## Included content
