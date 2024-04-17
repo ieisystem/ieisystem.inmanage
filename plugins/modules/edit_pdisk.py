@@ -20,20 +20,13 @@ description:
 notes:
    - Does not support C(check_mode).
 options:
-    info:
-        description:
-            - Show controller and pdisk info.
-        choices: ['show']
-        type: str
     ctrl_id:
         description:
             - Raid controller ID.
-            - Required when I(Info=None).
         type: int
     device_id:
         description:
             - Physical drive id.
-            - Required when I(Info=None).
         type: int
     option:
         description:
@@ -44,35 +37,34 @@ options:
             - EM is Drive Erase Simple, EN is Drive Erase Normal.
             - ET is Drive Erase Through, LOC is Locate, STL is Stop Locate.
             - HS is Hot spare.
-            - Required when I(Info=None).
             - Only the M5 model supports C(HS) Settings.
         choices: ['UG', 'UB', 'OFF', 'FAIL', 'RBD', 'ON', 'JB', 'ES', 'EM', 'EN', 'ET', 'LOC', 'STL', 'HS']
         type: str
     action:
         description:
             - Action while set physical drive hotspare.
-            - Required when I(Info=None) and I(option=HS).
+            - Required when I(option=HS).
             - Only the M5 model supports this parameter.
         choices: ['remove', 'global', 'dedicate']
         type: str
     revertible:
         description:
             - IsRevertible while set physical drive hotspare.
-            - Required when I(Info=None) and I(option=HS) and I(action=dedicate).
+            - Required when I(option=HS) and I(action=dedicate).
             - Only the M5 model supports this parameter.
         choices: ['yes', 'no']
         type: str
     encl:
         description:
             - IsEnclAffinity while set physical drive hotspare.
-            - Required when I(Info=None) and I(option=HS) and I(action=dedicate).
+            - Required when I(option=HS) and I(action=dedicate).
             - Only the M5 model supports this parameter.
         choices: ['yes', 'no']
         type: str
     logical_drivers:
         description:
             - Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0, 1, 2.....
-            - Required when I(Info=None) and I(option=HS) and I(action=dedicate).
+            - Required when I(option=HS) and I(action=dedicate).
             - Only the M5 model supports this parameter.
         type: list
         elements: int
@@ -98,11 +90,6 @@ EXAMPLES = '''
       password: "{{ password }}"
 
   tasks:
-
-  - name: "Show pdisk information"
-    ieisystem.inmanage.edit_pdisk:
-      info: "show"
-      provider: "{{ inmanage }}"
 
   - name: "Edit pdisk"
     ieisystem.inmanage.edit_pdisk:
@@ -173,7 +160,6 @@ class Disk(object):
 
 def main():
     argument_spec = dict(
-        info=dict(type='str', required=False, choices=['show']),
         ctrl_id=dict(type='int', required=False),
         device_id=dict(type='int', required=False),
         option=dict(type='str', required=False, choices=['UG', 'UB', 'OFF', 'FAIL', 'RBD', 'ON', 'JB', 'ES', 'EM', 'EN', 'ET', 'LOC', 'STL', 'HS']),
