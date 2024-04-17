@@ -423,3 +423,22 @@ releases:
     - 10-edit_doc_spell.yaml
     - 11-edit_doc_first_letter.yaml
     release_date: '2024-03-25'
+  1.2.0:
+    changes:
+      bugfixes:
+      - Add ansible 2.17 version tests to our CI test scripts.
+      - Delete the useless __init__.py file in modules and module_utils.
+      - Modify the add_ldisk, edit_ldisk, and edit_pdisk module.rst documents (https://github.com/ieisystem/ieisystem.inmanage/pull/16).
+      removed_features:
+      - add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info``
+        instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+      - edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``ieisystem.inmanage.ldisk_info``
+        instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+      - edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info``
+        instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+    fragments:
+    - 13-delete_init_file.yml
+    - 14-ansible2.17_added_for_CI_testing.yml
+    - 15-remove_modules_info.yml
+    - 16-edit_docs.yml
+    release_date: '2024-04-17'

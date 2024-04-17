@@ -1,2 +1,0 @@
-bugfixes:
-  - Add ansible 2.17 version tests to our CI test scripts.
