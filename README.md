@@ -6,7 +6,7 @@ This repo contains the `ieisystem.inmanage` Ansible Collection. Collections are 
 
 ## Tested with Ansible
 
-Tested with the current Ansible 2.10 releases and the current development version of Ansible. Ansible versions before 2.10.0 are not supported.
+Tested with the current Ansible 2.10 releases and the current development version of Ansible. Ansible versions before 2.10 are not supported.
 
 ## External requirements
 
