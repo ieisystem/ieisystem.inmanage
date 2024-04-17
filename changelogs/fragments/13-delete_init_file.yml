@@ -1,2 +1,0 @@
-bugfixes:
-  - Delete the useless __init__.py file in modules and module_utils.

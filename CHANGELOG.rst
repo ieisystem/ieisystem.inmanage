@@ -5,6 +5,23 @@ CHANGE THIS IN changelogs/config.yaml! Release Notes
 .. contents:: Topics
 
 
+v1.2.0
+======
+
+Removed Features (previously deprecated)
+----------------------------------------
+
+- add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+- edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``ieisystem.inmanage.ldisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+- edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+
+Bugfixes
+--------
+
+- Add ansible 2.17 version tests to our CI test scripts.
+- Delete the useless __init__.py file in modules and module_utils.
+- Modify the add_ldisk, edit_ldisk, and edit_pdisk module.rst documents (https://github.com/ieisystem/ieisystem.inmanage/pull/16).
+
 v1.1.1
 ======
 
