@@ -89,7 +89,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>Action while set physical drive hotspare.</div>
-                                            <div>Required when <em>Info=None</em> and <em>option=HS</em>.</div>
+                                            <div>Required when <em>option=HS</em>.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -106,7 +106,6 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Raid controller ID.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -122,7 +121,6 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Physical drive id.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -159,7 +157,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>IsEnclAffinity while set physical drive hotspare.</div>
-                                            <div>Required when <em>Info=None</em> and <em>option=HS</em> and <em>action=dedicate</em>.</div>
+                                            <div>Required when <em>option=HS</em> and <em>action=dedicate</em>.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -180,24 +178,6 @@ Parameters
             </tr>
                                 <tr>
                                                                 <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-info"></div>
-                    <b>info</b>
-                    <a class="ansibleOptionLink" href="#parameter-info" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>show</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Show controller and pdisk info.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
                     <div class="ansibleOptionAnchor" id="parameter-logical_drivers"></div>
                     <b>logical_drivers</b>
                     <a class="ansibleOptionLink" href="#parameter-logical_drivers" title="Permalink to this option"></a>
@@ -209,7 +189,7 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Logical Drivers while set physical drive hotspare, input multiple Logical Drivers index like 0, 1, 2.....</div>
-                                            <div>Required when <em>Info=None</em> and <em>option=HS</em> and <em>action=dedicate</em>.</div>
+                                            <div>Required when <em>option=HS</em> and <em>action=dedicate</em>.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -248,7 +228,6 @@ Parameters
                                             <div>EM is Drive Erase Simple, EN is Drive Erase Normal.</div>
                                             <div>ET is Drive Erase Through, LOC is Locate, STL is Stop Locate.</div>
                                             <div>HS is Hot spare.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                             <div>Only the M5 model supports <code>HS</code> Settings.</div>
                                                         </td>
             </tr>
@@ -348,7 +327,7 @@ Parameters
                                                                             </td>
                                                                 <td>
                                             <div>IsRevertible while set physical drive hotspare.</div>
-                                            <div>Required when <em>Info=None</em> and <em>option=HS</em> and <em>action=dedicate</em>.</div>
+                                            <div>Required when <em>option=HS</em> and <em>action=dedicate</em>.</div>
                                             <div>Only the M5 model supports this parameter.</div>
                                                         </td>
             </tr>
@@ -400,11 +379,6 @@ Examples
           password: "{{ password }}"
 
       tasks:
-
-      - name: "Show pdisk information"
-        ieisystem.inmanage.edit_pdisk:
-          info: "show"
-          provider: "{{ inmanage }}"
 
       - name: "Edit pdisk"
         ieisystem.inmanage.edit_pdisk:

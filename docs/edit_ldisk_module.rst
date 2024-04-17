@@ -84,7 +84,6 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Raid controller ID.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -121,24 +120,6 @@ Parameters
             </tr>
                                 <tr>
                                                                 <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-info"></div>
-                    <b>info</b>
-                    <a class="ansibleOptionLink" href="#parameter-info" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>show</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Show controller and ldisk info.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
                     <div class="ansibleOptionAnchor" id="parameter-ldisk_id"></div>
                     <b>ldisk_id</b>
                     <a class="ansibleOptionLink" href="#parameter-ldisk_id" title="Permalink to this option"></a>
@@ -150,7 +131,6 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Logical disk ID.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -177,7 +157,6 @@ Parameters
                                             <div>LOC is Locate Logical Drive, STL is Stop Locate LogicalDrive.</div>
                                             <div>FI is Fast Initialization, SFI is Slow/Full Initialization.</div>
                                             <div>SI is Stop Initialization, DEL is Delete LogicalDrive.</div>
-                                            <div>Required when <em>Info=None</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -307,11 +286,6 @@ Examples
           password: "{{ password }}"
 
       tasks:
-
-      - name: "Show ldisk information"
-        ieisystem.inmanage.edit_ldisk:
-          info: "show"
-          provider: "{{ inmanage }}"
 
       - name: "Edit ldisk"
         ieisystem.inmanage.edit_ldisk:

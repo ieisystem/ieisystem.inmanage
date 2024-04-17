@@ -1,0 +1,2 @@
+bugfixes:
+  - Modify the add_ldisk, edit_ldisk, and edit_pdisk module.rst documents (https://github.com/ieisystem/ieisystem.inmanage/pull/16).
