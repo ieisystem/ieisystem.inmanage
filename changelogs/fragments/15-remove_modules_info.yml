@@ -1,0 +1,4 @@
+removed_features:
+  - add_ldisk - Delete the ``add_ldisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+  - edit_ldisk - Delete the ``edit_ldisk.info`` parameter. Use ``ieisystem.inmanage.ldisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).
+  - edit_pdisk - Delete the ``edit_pdisk.info`` parameter. Use ``ieisystem.inmanage.pdisk_info`` instead (https://github.com/ieisystem/ieisystem.inmanage/pull/15).

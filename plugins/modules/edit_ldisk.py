@@ -20,20 +20,13 @@ description:
 notes:
    - Does not support C(check_mode).
 options:
-    info:
-        description:
-            - Show controller and ldisk info.
-        choices: ['show']
-        type: str
     ctrl_id:
         description:
             - Raid controller ID.
-            - Required when I(Info=None).
         type: int
     ldisk_id:
         description:
             - Logical disk ID.
-            - Required when I(Info=None).
         type: int
     option:
         description:
@@ -41,7 +34,6 @@ options:
             - LOC is Locate Logical Drive, STL is Stop Locate LogicalDrive.
             - FI is Fast Initialization, SFI is Slow/Full Initialization.
             - SI is Stop Initialization, DEL is Delete LogicalDrive.
-            - Required when I(Info=None).
         choices: ['LOC', 'STL', 'FI', 'SFI', 'SI', 'DEL']
         type: str
     duration:
@@ -66,11 +58,6 @@ EXAMPLES = '''
       password: "{{ password }}"
 
   tasks:
-
-  - name: "Show ldisk information"
-    ieisystem.inmanage.edit_ldisk:
-      info: "show"
-      provider: "{{ inmanage }}"
 
   - name: "Edit ldisk"
     ieisystem.inmanage.edit_ldisk:
@@ -130,7 +117,6 @@ class Disk(object):
 
 def main():
     argument_spec = dict(
-        info=dict(type='str', required=False, choices=['show']),
         ctrl_id=dict(type='int', required=False),
         ldisk_id=dict(type='int', required=False),
         option=dict(type='str', required=False, choices=['LOC', 'STL', 'FI', 'SFI', 'SI', 'DEL']),

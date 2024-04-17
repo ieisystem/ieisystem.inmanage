@@ -22,7 +22,7 @@ Thes modules require the following to be installed on the control node:
 
 * Python 3.7 or later
 * [Ansible](http://www.ansible.com) 2.10 or later
-* [ieisystem support] [inManage](https://github.com/ieisystem/inManage) 1.0.0 or later
+* [ieisystem support] [inManage](https://github.com/ieisystem/inManage) 1.1.0 or later
 
 ## Included content
 
