@@ -1,2 +1,0 @@
-bugfixes:
-  - Change the example gather_facts no to false(https://github.com/ieisystem/ieisystem.inmanage/pull/18).

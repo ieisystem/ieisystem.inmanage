@@ -442,3 +442,12 @@ releases:
     - 15-remove_modules_info.yml
     - 16-edit_docs.yml
     release_date: '2024-04-17'
+  1.2.1:
+    changes:
+      bugfixes:
+      - Change the example gather_facts no to false(https://github.com/ieisystem/ieisystem.inmanage/pull/18).
+      - Delete the unwanted links.yml file (https://github.com/ieisystem/ieisystem.inmanage/pull/19).
+    fragments:
+    - 18-edit_example_gather_facts.yml
+    - 19-delete_links.yml
+    release_date: '2024-04-24'
