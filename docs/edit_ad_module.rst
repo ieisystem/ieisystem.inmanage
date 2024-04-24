@@ -349,7 +349,7 @@ Examples
     - name: Ad test
       hosts: inmanage
       connection: local
-      gather_facts: no
+      gather_facts: false
       vars:
         inmanage:
           host: "{{ ansible_ssh_host }}"
