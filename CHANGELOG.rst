@@ -1,9 +1,17 @@
-====================================================
-CHANGE THIS IN changelogs/config.yaml! Release Notes
-====================================================
+================================
+ieisystem.inmanage Release Notes
+================================
 
 .. contents:: Topics
 
+
+v2.0.0
+======
+
+Bugfixes
+--------
+
+- resolved breaking changes that were mistakenly released in version 1.2.0(https://github.com/ieisystem/ieisystem.inmanage/pull/21).
 
 v1.2.1
 ======
