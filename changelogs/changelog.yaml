@@ -451,3 +451,10 @@ releases:
     - 18-edit_example_gather_facts.yml
     - 19-delete_links.yml
     release_date: '2024-04-24'
+  2.0.0:
+    changes:
+      bugfixes:
+      - resolved breaking changes that were mistakenly released in version 1.2.0(https://github.com/ieisystem/ieisystem.inmanage/pull/21).
+    fragments:
+    - 21-release_2.0.0.yml
+    release_date: '2024-06-07'
