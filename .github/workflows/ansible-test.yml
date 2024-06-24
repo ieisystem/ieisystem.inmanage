@@ -34,6 +34,7 @@ jobs:
             python-version: '3.9'
           - ansible: devel
             python-version: '3.9'
+
     runs-on: ubuntu-latest
     steps:
 
