@@ -5,6 +5,26 @@ ieisystem.inmanage Release Notes
 .. contents:: Topics
 
 
+v3.0.0
+======
+
+Major Changes
+-------------
+
+- Add new modules system_lock_mode_info, edit_system_lock_mode(https://github.com/ieisystem/ieisystem.inmanage/pull/24).
+
+Bugfixes
+--------
+
+- Edit ansible devel version tests to our CI test scripts  (https://github.com/ieisystem/ieisystem.inmanage/pull/23).
+- Modify the title information in changelogs config.yaml (https://github.com/ieisystem/ieisystem.inmanage/pull/22).
+
+New Modules
+-----------
+
+- edit_system_lock_mode - Set system lock mode information
+- system_lock_mode_info - Get system lock mode information
+
 v2.0.0
 ======
 
