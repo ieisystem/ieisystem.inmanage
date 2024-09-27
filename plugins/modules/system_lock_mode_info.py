@@ -61,7 +61,7 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible_collections.ieisystem.inmanage.plugins.module_utils.inmanage import (inmanage_argument_spec, get_connection)
 
 
-class AD(object):
+class Lock(object):
     def __init__(self, argument_spec):
         self.spec = argument_spec
         self.module = None
@@ -91,7 +91,7 @@ class AD(object):
 def main():
     argument_spec = dict()
     argument_spec.update(inmanage_argument_spec)
-    ad_obj = AD(argument_spec)
+    ad_obj = Lock(argument_spec)
     ad_obj.work()
 
 

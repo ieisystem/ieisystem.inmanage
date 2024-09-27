@@ -73,7 +73,7 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible_collections.ieisystem.inmanage.plugins.module_utils.inmanage import (inmanage_argument_spec, get_connection)
 
 
-class Psu(object):
+class Lock(object):
     def __init__(self, argument_spec):
         self.spec = argument_spec
         self.module = None
@@ -107,7 +107,7 @@ def main():
         lock_status=dict(type='str', required=True, choices=['close', 'open']),
     )
     argument_spec.update(inmanage_argument_spec)
-    psu_obj = Psu(argument_spec)
+    psu_obj = Lock(argument_spec)
     psu_obj.work()
 
 
