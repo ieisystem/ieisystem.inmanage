@@ -458,3 +458,22 @@ releases:
     fragments:
     - 21-release_2.0.0.yml
     release_date: '2024-06-07'
+  3.0.0:
+    changes:
+      bugfixes:
+      - Edit ansible devel version tests to our CI test scripts  (https://github.com/ieisystem/ieisystem.inmanage/pull/23).
+      - Modify the title information in changelogs config.yaml (https://github.com/ieisystem/ieisystem.inmanage/pull/22).
+      major_changes:
+      - Add new modules system_lock_mode_info, edit_system_lock_mode(https://github.com/ieisystem/ieisystem.inmanage/pull/24).
+    fragments:
+    - 22-edit_changelog_config.yml
+    - 23-edit_CI_devel.yml
+    - 24-edit_add_lock_mode.yml
+    modules:
+    - description: Set system lock mode information
+      name: edit_system_lock_mode
+      namespace: ''
+    - description: Get system lock mode information
+      name: system_lock_mode_info
+      namespace: ''
+    release_date: '2024-09-27'
