@@ -45,12 +45,12 @@ EXAMPLES = '''
 
   - name: "Set system lock mode to close"
     ieisystem.inmanage.edit_system_lock_mode:
-      status: "close"
+      lock_status: "close"
       provider: "{{ inmanage }}"
 
   - name: "Set system lock mode to open"
     ieisystem.inmanage.edit_system_lock_mode:
-      status: "open"
+      lock_status: "open"
       provider: "{{ inmanage }}"
 '''
 
@@ -104,8 +104,7 @@ class Psu(object):
 
 def main():
     argument_spec = dict(
-        status=dict(type='str', required=True, choices=['close', 'open']),
-        time=dict(type='int', required=False),
+        lock_status=dict(type='str', required=True, choices=['close', 'open']),
     )
     argument_spec.update(inmanage_argument_spec)
     psu_obj = Psu(argument_spec)

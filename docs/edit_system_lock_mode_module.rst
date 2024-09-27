@@ -235,12 +235,12 @@ Examples
 
       - name: "Set system lock mode to close"
         ieisystem.inmanage.edit_system_lock_mode:
-          status: "close"
+          lock_status: "close"
           provider: "{{ inmanage }}"
 
       - name: "Set system lock mode to open"
         ieisystem.inmanage.edit_system_lock_mode:
-          status: "open"
+          lock_status: "open"
           provider: "{{ inmanage }}"
 
 
