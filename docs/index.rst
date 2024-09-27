@@ -80,6 +80,7 @@ Modules
 * :ref:`edit_smtp_dest <ansible_collections.ieisystem.inmanage.edit_smtp_dest_module>` -- Set SMTP information
 * :ref:`edit_snmp <ansible_collections.ieisystem.inmanage.edit_snmp_module>` -- Set snmp
 * :ref:`edit_snmp_trap <ansible_collections.ieisystem.inmanage.edit_snmp_trap_module>` -- Set snmp trap
+* :ref:`edit_system_lock_mode <ansible_collections.ieisystem.inmanage.edit_system_lock_mode_module>` -- Set system lock mode information
 * :ref:`edit_threshold <ansible_collections.ieisystem.inmanage.edit_threshold_module>` -- Set threshold information
 * :ref:`edit_uid <ansible_collections.ieisystem.inmanage.edit_uid_module>` -- Set UID
 * :ref:`edit_virtual_media <ansible_collections.ieisystem.inmanage.edit_virtual_media_module>` -- Set virtual media
@@ -129,6 +130,7 @@ Modules
 * :ref:`snmp_info <ansible_collections.ieisystem.inmanage.snmp_info_module>` -- Get snmp get/set information
 * :ref:`snmp_trap_info <ansible_collections.ieisystem.inmanage.snmp_trap_info_module>` -- Get snmp trap information
 * :ref:`support_info <ansible_collections.ieisystem.inmanage.support_info_module>` -- Get support information
+* :ref:`system_lock_mode_info <ansible_collections.ieisystem.inmanage.system_lock_mode_info_module>` -- Get system lock mode information
 * :ref:`system_log_info <ansible_collections.ieisystem.inmanage.system_log_info_module>` -- Get BMC system log information
 * :ref:`temp_info <ansible_collections.ieisystem.inmanage.temp_info_module>` -- Get temp information
 * :ref:`threshold_info <ansible_collections.ieisystem.inmanage.threshold_info_module>` -- Get threshold information

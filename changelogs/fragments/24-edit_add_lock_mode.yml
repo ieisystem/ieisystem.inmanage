@@ -1,0 +1,2 @@
+major_changes:
+  - "Add new modules system_lock_mode_info, edit_system_lock_mode(https://github.com/ieisystem/ieisystem.inmanage/pull/24)."
