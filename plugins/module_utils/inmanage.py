@@ -5,12 +5,16 @@ from __future__ import (absolute_import, division, print_function)
 
 __metaclass__ = type
 
+import sys
 try:
     import inmanage
     inmanage_msg = ''
     inmanage_temp = True
 except ImportError as e:
-    inmanage_msg = e.msg
+    if sys.version_info < (3.0)
+        inmanage_msg = e.message
+    else:
+        inmanage_msg = e.msg
     inmanage_temp = False
 from ansible.module_utils.basic import env_fallback
 from ansible.module_utils.six import iteritems
