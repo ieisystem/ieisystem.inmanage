@@ -11,7 +11,7 @@ try:
     inmanage_msg = ''
     inmanage_temp = True
 except ImportError as e:
-    if sys.version_info.major == 2
+    if sys.version_info.major == 2:
         inmanage_msg = e.message
     else:
         inmanage_msg = e.msg
