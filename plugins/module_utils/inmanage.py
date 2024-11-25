@@ -12,7 +12,8 @@ try:
     inmanage_temp = True
 except ImportError as e:
     if sys.version_info.major == 2:
-        inmanage_msg = e.message
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        inmanage_msg = str(exc_value)
     else:
         inmanage_msg = e.msg
     inmanage_temp = False
