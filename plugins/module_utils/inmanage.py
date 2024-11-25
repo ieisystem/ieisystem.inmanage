@@ -5,10 +5,17 @@ from __future__ import (absolute_import, division, print_function)
 
 __metaclass__ = type
 
+import sys
 try:
     import inmanage
+    inmanage_msg = ''
     inmanage_temp = True
-except ImportError:
+except ImportError as e:
+    if sys.version_info.major == 2:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        inmanage_msg = str(exc_value)
+    else:
+        inmanage_msg = e.msg
     inmanage_temp = False
 from ansible.module_utils.basic import env_fallback
 from ansible.module_utils.six import iteritems
@@ -49,6 +56,6 @@ def get_connection(module):
     # else:
     dict_param = module.params
     if not inmanage_temp:
-        module.fail_json(msg='inmanage_sdk must be installed to use this module')
+        module.fail_json(msg='inmanage_sdk must be installed to use this module.' + inmanage_msg)
     result = inmanage.main(dict_param)
     return result
