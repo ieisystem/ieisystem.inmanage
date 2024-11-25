@@ -7,6 +7,7 @@ __metaclass__ = type
 
 try:
     import inmanage
+    inmanage_msg = ''
     inmanage_temp = True
 except ImportError as e:
     inmanage_msg = e.msg
