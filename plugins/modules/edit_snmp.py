@@ -70,7 +70,7 @@ options:
     auth_protocol:
         description:
             - Choose the authentication protocol for the V3 trap or v3get/v3set.
-        choices: ['NONE', 'SHA', 'MD5']
+        choices: ['NONE', 'SHA', 'MD5', "SHA256", "SHA384", "SHA512"]
         type: str
     auth_password:
         description:
@@ -81,7 +81,7 @@ options:
     priv_protocol:
         description:
             - Choose the privacy protocol for the V3 trap or v3get/v3set.
-        choices: ['NONE', 'DES', 'AES']
+        choices: ['NONE', 'DES', 'AES', "AES128", "AES256"]
         type: str
     priv_password:
         description:
@@ -174,9 +174,9 @@ def main():
         read_community=dict(type='str', required=False),
         read_write_community=dict(type='str', required=False),
         v3username=dict(type='str', required=False),
-        auth_protocol=dict(type='str', required=False, choices=['NONE', 'SHA', 'MD5']),
+        auth_protocol=dict(type='str', required=False, choices=['NONE', 'SHA', 'MD5', "SHA256", "SHA384", "SHA512"]),
         auth_password=dict(type='str', required=False, no_log=True),
-        priv_protocol=dict(type='str', required=False, choices=['NONE', 'DES', 'AES']),
+        priv_protocol=dict(type='str', required=False, choices=['NONE', 'DES', 'AES', "AES128", "AES256"]),
         priv_password=dict(type='str', required=False, no_log=True),
     )
     argument_spec.update(inmanage_argument_spec)
