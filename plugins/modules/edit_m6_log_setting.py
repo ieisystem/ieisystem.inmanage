@@ -46,17 +46,22 @@ options:
             - Syslog Server ID, set when I(status=enable).
         choices: [0, 1, 2, 3]
         type: int
+    server_status:
+        description:
+            - Syslog Server status, set when server_id is not none.
+        choices: ['enable', 'disable']
+        type: str
     server_addr:
         description:
-            - Server Address, set when server_id is not none.
+            - Server Address, set when I(server_status=enable).
         type: str
     server_port:
         description:
-            - Server Address, set when server_id is not none.
+            - Server Address, set when I(server_status=enable).
         type: int
     log_type:
         description:
-            - Remote Log Type, set when server_id is not none.
+            - Remote Log Type, set when I(server_status=enable).
         choices: ['idl', 'audit', 'both']
         type: str
     test:
@@ -160,6 +165,7 @@ def main():
         level=dict(type='str', required=False, choices=['Critical', 'Warning', 'Info']),
         protocol_type=dict(type='str', required=False, choices=['UDP', 'TCP']),
         server_id=dict(type='int', required=False, choices=[0, 1, 2, 3]),
+        server_status=dict(type='str', required=False, choices=['enable', 'disable']),
         server_addr=dict(type='str', required=False),
         server_port=dict(type='int', required=False),
         log_type=dict(type='str', required=False, choices=['idl', 'audit', 'both']),

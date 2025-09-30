@@ -52,7 +52,7 @@ options:
     auth_protocol:
         description:
             - Choose the authentication protocol for the V3 trap.
-        choices: ['NONE', 'SHA', 'MD5']
+        choices: ['NONE', 'SHA', 'MD5', "SHA256", "SHA384", "SHA512"]
         type: str
     auth_password:
         description:
@@ -63,7 +63,7 @@ options:
     priv_protocol:
         description:
             - Choose the privacy protocol for the V3 trap.
-        choices: ['NONE', 'DES', 'AES']
+        choices: ['NONE', 'DES', 'AES', "AES128", "AES256"]
         type: str
     priv_password:
         description:
@@ -197,9 +197,9 @@ def main():
         host_id=dict(type='str', required=False, choices=['HostName', 'SerialNum', 'AssertTag']),
         v3username=dict(type='str', required=False),
         engine_id=dict(type='str', required=False),
-        auth_protocol=dict(type='str', required=False, choices=['NONE', 'SHA', 'MD5']),
+        auth_protocol=dict(type='str', required=False, choices=['NONE', 'SHA', 'MD5', "SHA256", "SHA384", "SHA512"]),
         auth_password=dict(type='str', required=False, no_log=True),
-        priv_protocol=dict(type='str', required=False, choices=['NONE', 'DES', 'AES']),
+        priv_protocol=dict(type='str', required=False, choices=['NONE', 'DES', 'AES', "AES128", "AES256"]),
         priv_password=dict(type='str', required=False, no_log=True),
         system_name=dict(type='str', required=False),
         system_id=dict(type='str', required=False),
