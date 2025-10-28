@@ -102,6 +102,9 @@ Parameters
                                                                                                                                                                 <li>NONE</li>
                                                                                                                                                                                                 <li>SHA</li>
                                                                                                                                                                                                 <li>MD5</li>
+                                                                                                                                                                                                <li>SHA256</li>
+                                                                                                                                                                                                <li>SHA384</li>
+                                                                                                                                                                                                <li>SHA512</li>
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
@@ -185,6 +188,8 @@ Parameters
                                                                                                                                                                 <li>NONE</li>
                                                                                                                                                                                                 <li>DES</li>
                                                                                                                                                                                                 <li>AES</li>
+                                                                                                                                                                                                <li>AES128</li>
+                                                                                                                                                                                                <li>AES256</li>
                                                                                     </ul>
                                                                             </td>
                                                                 <td>

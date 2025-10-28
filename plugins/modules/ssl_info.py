@@ -10,13 +10,13 @@ __metaclass__ = type
 
 DOCUMENTATION = '''
 ---
-module: support_info
-version_added: "1.0.0"
+module: ssl_info
+version_added: "4.0.0"
 author:
     - WangBaoshan (@ieisystem)
-short_description: Get support information
+short_description: Get SSL certificate information
 description:
-   - Get the ieisystem Server support list information.
+   - Get SSL certificate information on ieisystem Server.
 notes:
    - Supports C(check_mode).
 options: {}
@@ -25,7 +25,7 @@ extends_documentation_fragment:
 '''
 
 EXAMPLES = '''
-- name: Support list test
+- name: ssl test
   hosts: inmanage
   connection: local
   gather_facts: false
@@ -37,8 +37,8 @@ EXAMPLES = '''
 
   tasks:
 
-  - name: "Get support information"
-    ieisystem.inmanage.support_info:
+  - name: "Get SSL certificate information"
+    ieisystem.inmanage.ssl_info:
       provider: "{{ inmanage }}"
 '''
 
@@ -61,7 +61,7 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible_collections.ieisystem.inmanage.plugins.module_utils.inmanage import (inmanage_argument_spec, get_connection)
 
 
-class Support(object):
+class SSL(object):
     def __init__(self, argument_spec):
         self.spec = argument_spec
         self.module = None
@@ -75,7 +75,7 @@ class Support(object):
             argument_spec=self.spec, supports_check_mode=True)
 
     def run_command(self):
-        self.module.params['subcommand'] = 'support_model_nf'
+        self.module.params['subcommand'] = 'getssl'
         self.results = get_connection(self.module)
 
     def show_result(self):
@@ -91,8 +91,8 @@ class Support(object):
 def main():
     argument_spec = dict()
     argument_spec.update(inmanage_argument_spec)
-    support_obj = Support(argument_spec)
-    support_obj.work()
+    ssl_obj = SSL(argument_spec)
+    ssl_obj.work()
 
 
 if __name__ == '__main__':
