@@ -90,6 +90,7 @@ Modules
 * :ref:`fan_info <ansible_collections.ieisystem.inmanage.fan_info_module>` -- Get fan information
 * :ref:`fru_info <ansible_collections.ieisystem.inmanage.fru_info_module>` -- Get fru information
 * :ref:`fw_version_info <ansible_collections.ieisystem.inmanage.fw_version_info_module>` -- Get firmware version information
+* :ref:`generate_ssl <ansible_collections.ieisystem.inmanage.generate_ssl_module>` -- Generate SSL certificate
 * :ref:`gpu_info <ansible_collections.ieisystem.inmanage.gpu_info_module>` -- Get GPU information
 * :ref:`hard_disk_info <ansible_collections.ieisystem.inmanage.hard_disk_info_module>` -- Get hard disk information
 * :ref:`hba_info <ansible_collections.ieisystem.inmanage.hba_info_module>` -- Get CPU information
@@ -129,6 +130,7 @@ Modules
 * :ref:`smtp_info <ansible_collections.ieisystem.inmanage.smtp_info_module>` -- Get SMTP information
 * :ref:`snmp_info <ansible_collections.ieisystem.inmanage.snmp_info_module>` -- Get snmp get/set information
 * :ref:`snmp_trap_info <ansible_collections.ieisystem.inmanage.snmp_trap_info_module>` -- Get snmp trap information
+* :ref:`ssl_info <ansible_collections.ieisystem.inmanage.ssl_info_module>` -- Get SSL certificate information
 * :ref:`support_info <ansible_collections.ieisystem.inmanage.support_info_module>` -- Get support information
 * :ref:`system_lock_mode_info <ansible_collections.ieisystem.inmanage.system_lock_mode_info_module>` -- Get system lock mode information
 * :ref:`system_log_info <ansible_collections.ieisystem.inmanage.system_log_info_module>` -- Get BMC system log information
@@ -138,6 +140,7 @@ Modules
 * :ref:`update_cpld <ansible_collections.ieisystem.inmanage.update_cpld_module>` -- Update CPLD
 * :ref:`update_fw <ansible_collections.ieisystem.inmanage.update_fw_module>` -- Update firmware
 * :ref:`update_psu <ansible_collections.ieisystem.inmanage.update_psu_module>` -- Update PSU
+* :ref:`upload_ssl <ansible_collections.ieisystem.inmanage.upload_ssl_module>` -- Upload SSL certificate
 * :ref:`user <ansible_collections.ieisystem.inmanage.user_module>` -- Manage user
 * :ref:`user_group <ansible_collections.ieisystem.inmanage.user_group_module>` -- Manage user group
 * :ref:`user_group_info <ansible_collections.ieisystem.inmanage.user_group_info_module>` -- Get user group information

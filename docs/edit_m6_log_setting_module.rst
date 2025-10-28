@@ -144,7 +144,7 @@ Parameters
                                                                                     </ul>
                                                                             </td>
                                                                 <td>
-                                            <div>Remote Log Type, set when server_id is not none.</div>
+                                            <div>Remote Log Type, set when <em>server_status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -257,7 +257,7 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Server Address, set when server_id is not none.</div>
+                                            <div>Server Address, set when <em>server_status=enable</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -293,7 +293,26 @@ Parameters
                                 <td>
                                                                                                                                                             </td>
                                                                 <td>
-                                            <div>Server Address, set when server_id is not none.</div>
+                                            <div>Server Address, set when <em>server_status=enable</em>.</div>
+                                                        </td>
+            </tr>
+                                <tr>
+                                                                <td colspan="2">
+                    <div class="ansibleOptionAnchor" id="parameter-server_status"></div>
+                    <b>server_status</b>
+                    <a class="ansibleOptionLink" href="#parameter-server_status" title="Permalink to this option"></a>
+                    <div style="font-size: small">
+                        <span style="color: purple">string</span>
+                                                                    </div>
+                                                        </td>
+                                <td>
+                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
+                                                                                                                                                                <li>enable</li>
+                                                                                                                                                                                                <li>disable</li>
+                                                                                    </ul>
+                                                                            </td>
+                                                                <td>
+                                            <div>Syslog Server status, set when server_id is not none.</div>
                                                         </td>
             </tr>
                                 <tr>

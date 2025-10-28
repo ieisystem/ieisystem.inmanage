@@ -4,7 +4,7 @@
 
 .. Anchors
 
-.. _ansible_collections.ieisystem.inmanage.edit_network_bond_module:
+.. _ansible_collections.ieisystem.inmanage.ssl_info_module:
 
 .. Anchors: short name for ansible.builtin
 
@@ -14,8 +14,8 @@
 
 .. Title
 
-ieisystem.inmanage.edit_network_bond -- Set network bond
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ieisystem.inmanage.ssl_info -- Get SSL certificate information
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. Collection note
 
@@ -24,11 +24,11 @@ ieisystem.inmanage.edit_network_bond -- Set network bond
 
     To install it use: :code:`ansible-galaxy collection install ieisystem.inmanage`.
 
-    To use it in a playbook, specify: :code:`ieisystem.inmanage.edit_network_bond`.
+    To use it in a playbook, specify: :code:`ieisystem.inmanage.ssl_info`.
 
 .. version_added
 
-.. versionadded:: 1.0.0 of ieisystem.inmanage
+.. versionadded:: 4.0.0 of ieisystem.inmanage
 
 .. contents::
    :local:
@@ -42,7 +42,7 @@ Synopsis
 
 .. Description
 
-- Set network bond on ieisystem Server.
+- Get SSL certificate information on ieisystem Server.
 
 
 .. Aliases
@@ -73,45 +73,6 @@ Parameters
         </tr>
                     <tr>
                                                                 <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-auto_config"></div>
-                    <b>auto_config</b>
-                    <a class="ansibleOptionLink" href="#parameter-auto_config" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>enable</li>
-                                                                                                                                                                                                <li>disable</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Enable this option to configure the interfaces in service configuration automatically.</div>
-                                            <div>Only the M5 model supports this parameter.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-bond"></div>
-                    <b>bond</b>
-                    <a class="ansibleOptionLink" href="#parameter-bond" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>enable</li>
-                                                                                                                                                                                                <li>disable</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Network bond status, If VLAN is enabled for slave interfaces, then Bonding cannot be enabled.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
                     <div class="ansibleOptionAnchor" id="parameter-host"></div>
                     <b>host</b>
                     <a class="ansibleOptionLink" href="#parameter-host" title="Permalink to this option"></a>
@@ -123,27 +84,6 @@ Parameters
                                                                                                                                                             </td>
                                                                 <td>
                                             <div>Specifies the DNS host name or address for connecting to the remote device over the specified transport.  The value of host is used as the destination address for the transport.</div>
-                                                        </td>
-            </tr>
-                                <tr>
-                                                                <td colspan="2">
-                    <div class="ansibleOptionAnchor" id="parameter-interface"></div>
-                    <b>interface</b>
-                    <a class="ansibleOptionLink" href="#parameter-interface" title="Permalink to this option"></a>
-                    <div style="font-size: small">
-                        <span style="color: purple">string</span>
-                                                                    </div>
-                                                        </td>
-                                <td>
-                                                                                                                            <ul style="margin: 0; padding: 0"><b>Choices:</b>
-                                                                                                                                                                <li>shared</li>
-                                                                                                                                                                                                <li>dedicated</li>
-                                                                                                                                                                                                <li>both</li>
-                                                                                    </ul>
-                                                                            </td>
-                                                                <td>
-                                            <div>Interface name.</div>
-                                            <div>The M6 model does not support <em>both</em>.</div>
                                                         </td>
             </tr>
                                 <tr>
@@ -249,7 +189,7 @@ Notes
 -----
 
 .. note::
-   - Does not support ``check_mode``.
+   - Supports ``check_mode``.
 
 .. Seealso
 
@@ -262,7 +202,7 @@ Examples
 .. code-block:: yaml+jinja
 
     
-    - name: Bond test
+    - name: ssl test
       hosts: inmanage
       connection: local
       gather_facts: false
@@ -274,11 +214,8 @@ Examples
 
       tasks:
 
-      - name: "Set network bond"
-        ieisystem.inmanage.edit_network_bond:
-          bond: "enable"
-          interface: "dedicated"
-          auto_config: "enable"
+      - name: "Get SSL certificate information"
+        ieisystem.inmanage.ssl_info:
           provider: "{{ inmanage }}"
 
 

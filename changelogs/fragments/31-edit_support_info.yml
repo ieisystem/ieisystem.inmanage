@@ -1,0 +1,2 @@
+bugfixes:
+  - "Modify the method referenced in the support_info.py file to be support_info_nf . (https://github.com/ieisystem/ieisystem.inmanage/pull/31)."

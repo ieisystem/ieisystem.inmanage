@@ -10,22 +10,32 @@ __metaclass__ = type
 
 DOCUMENTATION = '''
 ---
-module: support_info
-version_added: "1.0.0"
+module: upload_ssl
+version_added: "4.0.0"
 author:
     - WangBaoshan (@ieisystem)
-short_description: Get support information
+short_description: Upload SSL certificate
 description:
-   - Get the ieisystem Server support list information.
+   - Upload SSL certificate on ieisystem Server.
 notes:
-   - Supports C(check_mode).
-options: {}
+   - Does not support C(check_mode).
+options:
+    certificate:
+        description:
+            - New Certificate file.
+        required: true
+        type: str
+    private:
+        description:
+            - New Private Key file.
+        required: true
+        type: str
 extends_documentation_fragment:
     - ieisystem.inmanage.inmanage
 '''
 
 EXAMPLES = '''
-- name: Support list test
+- name: Upload SSL test
   hosts: inmanage
   connection: local
   gather_facts: false
@@ -37,9 +47,12 @@ EXAMPLES = '''
 
   tasks:
 
-  - name: "Get support information"
-    ieisystem.inmanage.support_info:
+  - name: "Upload SSL"
+    ieisystem.inmanage.upload_ssl:
+      certificate: "/opy/rsa_private_key.pem"
+      private: "/opy/rsa_public_key.pem"
       provider: "{{ inmanage }}"
+
 '''
 
 RETURN = '''
@@ -61,7 +74,7 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible_collections.ieisystem.inmanage.plugins.module_utils.inmanage import (inmanage_argument_spec, get_connection)
 
 
-class Support(object):
+class SSL(object):
     def __init__(self, argument_spec):
         self.spec = argument_spec
         self.module = None
@@ -72,11 +85,13 @@ class Support(object):
         """Init module object"""
 
         self.module = AnsibleModule(
-            argument_spec=self.spec, supports_check_mode=True)
+            argument_spec=self.spec, supports_check_mode=False)
 
     def run_command(self):
-        self.module.params['subcommand'] = 'support_model_nf'
+        self.module.params['subcommand'] = 'uploadssl'
         self.results = get_connection(self.module)
+        if self.results['State'] == 'Success':
+            self.results['changed'] = True
 
     def show_result(self):
         """Show result"""
@@ -87,12 +102,14 @@ class Support(object):
         self.run_command()
         self.show_result()
 
-
 def main():
-    argument_spec = dict()
+    argument_spec = dict(
+        certificate=dict(type='str', required=True),
+        private=dict(type='str', required=True),
+    )
     argument_spec.update(inmanage_argument_spec)
-    support_obj = Support(argument_spec)
-    support_obj.work()
+    ssl_obj = SSL(argument_spec)
+    ssl_obj.work()
 
 
 if __name__ == '__main__':
