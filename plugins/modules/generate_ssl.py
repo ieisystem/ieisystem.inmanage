@@ -90,7 +90,7 @@ EXAMPLES = '''
 
   tasks:
 
-  - name: "Add LSI ldisk"
+  - name: "Generate SSL"
     ieisystem.inmanage.generate_ssl:
       common_name: "tests"
       organization: "test"
@@ -150,6 +150,7 @@ class SSL(object):
         """Worker"""
         self.run_command()
         self.show_result()
+
 
 def main():
     argument_spec = dict(
