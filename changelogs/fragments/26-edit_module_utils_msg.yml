@@ -1,2 +1,0 @@
-bugfixes:
-  - "Modify the failure details returned in module_utils (https://github.com/ieisystem/ieisystem.inmanage/pull/26)."

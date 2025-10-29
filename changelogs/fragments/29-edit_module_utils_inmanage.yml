@@ -1,2 +1,0 @@
-bugfixes:
-  - "Modify the inmanage.py file in the module_utils directory, and change the reference path of iteritems to be a reference from within Python. (https://github.com/ieisystem/ieisystem.inmanage/pull/29)."
