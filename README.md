@@ -55,7 +55,7 @@ See [here](https://docs.ansible.com/ansible/devel/dev_guide/developing_collectio
 
 ### Communication
 
-wangbaoshan@ieisystem.com
+inmanage.oss@ieisystem.com
 
 
 ### Publishing New Version
