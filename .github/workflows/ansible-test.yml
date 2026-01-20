@@ -12,7 +12,6 @@ jobs:
     name: Sanity (${{ matrix.ansible }})
     strategy:
       matrix:
-        ansible:
         ansible:    
         - stable-2.18
         - stable-2.19
